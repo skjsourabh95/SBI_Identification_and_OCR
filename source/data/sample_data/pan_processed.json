@@ -1,0 +1,91 @@
+{
+    "local_path": "../data/sample_data/pan_processed.jpeg",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/pan_processed.jpeg",
+    "document_classification": "PAN_CARD",
+    "classification_score": 0.986,
+    "faces_detected": {
+        "520dcc33-9f3d-4bc5-9cc9-5a6e5a8ea4a2": [
+            797,
+            508,
+            885,
+            618
+        ]
+    },
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:pan": 0.986
+        },
+        "identified_labels": {
+            "dob": {
+                "value": "05/06/1979",
+                "confidence": 0.995
+            },
+            "father_name": {
+                "value": "RAJENDRA PRASAD CHAUDHARY",
+                "confidence": 0.994
+            },
+            "name": {
+                "value": "RITLAL CHAUDHARY",
+                "confidence": 0.994
+            },
+            "pan_no": {
+                "value": "AGSPC3653M",
+                "confidence": 0.995
+            },
+            "signature": {
+                "value": "signed",
+                "confidence": 0.953
+            }
+        },
+        "labels_coordinates": {
+            "dob": [
+                62,
+                332,
+                256,
+                381
+            ],
+            "father_name": [
+                69,
+                266,
+                617,
+                343
+            ],
+            "name": [
+                76,
+                185,
+                414,
+                245
+            ],
+            "pan_no": [
+                55,
+                430,
+                289,
+                484
+            ],
+            "signature": [
+                349,
+                503,
+                376,
+                539
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u0906\u092f\u0915\u0930 \u0935\u093f\u092d\u093e\u0917",
+                "INCOME TAX DEPARTMENT",
+                "RITLAL CHAUDHARY",
+                "RAJENDRA PRASAD CHAUDHARY",
+                "05/06/1979",
+                "Permanent Account Number",
+                "AGSPC3653M",
+                "6",
+                "Signature",
+                "\u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930",
+                "GOVT. OF INDIA",
+                "02062006"
+            ]
+        },
+        "structured_data": {}
+    }
+}

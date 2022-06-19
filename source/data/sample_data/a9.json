@@ -1,0 +1,77 @@
+{
+    "local_path": "../data/sample_data/a9.jpeg",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/a9.jpeg",
+    "document_classification": "AADHAAR_CARD",
+    "classification_score": 0.989,
+    "faces_detected": {
+        "cbc37289-673f-4a69-b996-29b355ae43d6": [
+            121,
+            551,
+            206,
+            664
+        ]
+    },
+    "signature_present": false,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:aadhaar": 0.989
+        },
+        "identified_labels": {
+            "dob": {
+                "value": "05/05/1995",
+                "confidence": 0.995
+            },
+            "name": {
+                "value": "Gayatri Singh",
+                "confidence": 0.995
+            },
+            "gender": {
+                "value": "Female",
+                "confidence": 0.99
+            },
+            "aadhaar_no": {
+                "value": "2621 4644 2086",
+                "confidence": 0.977
+            }
+        },
+        "labels_coordinates": {
+            "dob": [
+                399,
+                631,
+                479,
+                649
+            ],
+            "name": [
+                270,
+                524,
+                393,
+                547
+            ],
+            "gender": [
+                326,
+                659,
+                385,
+                677
+            ],
+            "aadhaar_no": [
+                277,
+                725,
+                501,
+                753
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u092d\u093e\u0930\u0924 \u0938\u0930\u0915\u093e\u0930",
+                "Government of India",
+                "\u0917\u093e\u092f\u0924\u094d\u0930\u0940 \u0938\u093f\u0902\u0939",
+                "Gayatri Singh",
+                "\u091c\u0928\u094d\u092e \u0924\u093f\u0925\u093f / DOB: 05/05/1995",
+                "\u092e\u0939\u093f\u0932\u093e / Female",
+                "2621 4644 2086",
+                "\u0906\u0927\u093e\u0930 - \u0906\u092e \u0906\u0926\u092e\u0940 \u0915\u093e \u0905\u0927\u093f\u0915\u093e\u0930"
+            ]
+        },
+        "structured_data": {}
+    }
+}

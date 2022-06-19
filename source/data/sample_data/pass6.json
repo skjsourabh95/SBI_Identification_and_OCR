@@ -1,0 +1,204 @@
+{
+    "local_path": "../data/sample_data/pass6.png",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/pass6.png",
+    "document_classification": "PASSPORT_INDIAN",
+    "classification_score": 0.934,
+    "faces_detected": {
+        "36dc5678-8e6f-49e3-9d4e-bd228df85e20": [
+            747,
+            235,
+            848,
+            361
+        ],
+        "b1733b49-c63e-491a-a8a8-5053803c8b64": [
+            129,
+            128,
+            227,
+            252
+        ]
+    },
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:passport": 0.934
+        },
+        "identified_labels": {
+            "dob": {
+                "value": "06/06/1994",
+                "confidence": 0.953
+            },
+            "place_of_issue": {
+                "value": "DEHRADUN",
+                "confidence": 0.947
+            },
+            "given_name": {
+                "value": "LALIT MOHAN",
+                "confidence": 0.968
+            },
+            "place_of_birth": {
+                "value": "NAINITAL, UTTARAKHAND",
+                "confidence": 0.953
+            },
+            "surname": {
+                "value": "BISHT",
+                "confidence": 0.965
+            },
+            "MRZ": {
+                "value": "P<INDBISHT << LALIT<MOHAN <<<<<<<<<<<<<<<<<<<<< S6535116<1IND9406063M2810124 <<<<<<<<<<<<<<< 6",
+                "confidence": 0.928
+            },
+            "date_of_expiry": {
+                "value": "12/10/2028",
+                "confidence": 0.852
+            },
+            "gender": {
+                "value": "M",
+                "confidence": 0.969
+            },
+            "signature": {
+                "value": "signed",
+                "confidence": 0.749
+            },
+            "passport_no": {
+                "value": "S6535116",
+                "confidence": 0.9
+            },
+            "nationality": {
+                "value": "\u092d\u093e\u0930\u0924\u0940\u092f /INDIAN",
+                "confidence": 0.98
+            },
+            "country_code": {
+                "value": "IND",
+                "confidence": 0.986
+            },
+            "type": {
+                "value": "P",
+                "confidence": 0.948
+            },
+            "date_of_issue": {
+                "value": "13/10/2018",
+                "confidence": 0.971
+            }
+        },
+        "labels_coordinates": {
+            "dob": [
+                770,
+                280,
+                930,
+                303
+            ],
+            "place_of_issue": [
+                443,
+                402,
+                567,
+                426
+            ],
+            "given_name": [
+                352,
+                210,
+                527,
+                233
+            ],
+            "place_of_birth": [
+                350,
+                339,
+                688,
+                363
+            ],
+            "surname": [
+                354,
+                147,
+                431,
+                169
+            ],
+            "MRZ": [
+                43,
+                547,
+                941,
+                642
+            ],
+            "date_of_expiry": [
+                771,
+                476,
+                930,
+                501
+            ],
+            "gender": [
+                646,
+                281,
+                657,
+                300
+            ],
+            "signature": [
+                60,
+                396,
+                318,
+                507
+            ],
+            "passport_no": [
+                760,
+                110,
+                952,
+                141
+            ],
+            "nationality": [
+                352,
+                273,
+                543,
+                303
+            ],
+            "country_code": [
+                588,
+                107,
+                625,
+                129
+            ],
+            "type": [
+                389,
+                103,
+                401,
+                124
+            ],
+            "date_of_issue": [
+                443,
+                471,
+                601,
+                496
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "\u092d\u093e\u0930\u0924 \u0917\u0923\u0930\u093e\u091c\u094d\u092f REPUBLIC OF INDIA",
+                "Aulit",
+                "L",
+                "enq / Type",
+                "P",
+                "89-19 / Surname",
+                "BISHT",
+                "\u00abTEE ma / Country Code",
+                "IND",
+                "\u0926\u093f\u092f\u093e \u0917\u092f\u093e \u0928\u093e\u092e / Given Name(s)",
+                "LALIT MOHAN",
+                "\u0930\u093e\u0937\u094d\u091f\u094d\u0930\u0940\u092f\u0924\u093e / Nationality",
+                "\u092d\u093e\u0930\u0924\u0940\u092f /INDIAN",
+                "fam / Sex",
+                "M",
+                "GF-AT TR / Place of Birth",
+                "NAINITAL, UTTARAKHAND",
+                "\u091c\u093e\u0930\u0940 \u0915\u0930\u0928\u0947 \u0915\u093e \u0938\u094d\u0925\u093e\u0928 / Place of Isque",
+                "-",
+                "DEHRADUN",
+                "\u092a\u093e\u0938\u092a\u094b\u0930\u094d\u091f \u0928\u0947\u0902 / Passport No.",
+                "S6535116",
+                "in-fora / Date of Birth",
+                "06/06/1994",
+                "\u091c\u093e\u0930\u0940 \u0915\u0930\u0928\u0947 \u0915\u0940 \u0924\u093f\u0925\u093f / Date of Issue \u0938\u092e\u093e\u092a\u094d\u0924\u093f \u0915\u0940 \u0924\u093f\u0925\u093f / 09ld of Expiry",
+                "13/10/2018",
+                "12/10/2028",
+                "P<INDBISHT << LALIT<MOHAN <<<<<<<<<<<<<<<<<<<<<",
+                "S6535116<1IND9406063M2810124 <<<<<<<<<<<<<<< 6"
+            ]
+        },
+        "structured_data": {}
+    }
+}

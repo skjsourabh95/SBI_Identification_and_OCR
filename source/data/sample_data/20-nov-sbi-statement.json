@@ -1,0 +1,679 @@
+{
+    "local_path": "../data/sample_data/20-nov-sbi-statement.jpeg",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/20-nov-sbi-statement.jpeg",
+    "document_classification": "ACCOUNT_STATEMENT",
+    "classification_score": 0.812,
+    "faces_detected": {},
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:AS": 0.812
+        },
+        "identified_labels": {
+            "IFSC_code": {
+                "value": "SBIN0006927",
+                "confidence": 0.99
+            },
+            "account_name": {
+                "value": "Lieutenant Colonel MURALI MARUL MOZHI M",
+                "confidence": 0.993
+            },
+            "balance": {
+                "value": "3.37,778.39",
+                "confidence": 0.992
+            },
+            "account_addrs": {
+                "value": "OLD NO.25, NEW NO.14 METTU STREET, THIRUVIDAIMARUOUR P.O. THANJAVUR DISTR, TAMILNADU-812104 Thanjavur",
+                "confidence": 0.992
+            },
+            "account_branch": {
+                "value": "TIRUVIDAIMARUDUR",
+                "confidence": 0.908
+            },
+            "account_no": {
+                "value": "00000010273549170",
+                "confidence": 0.992
+            }
+        },
+        "labels_coordinates": {
+            "IFSC_code": [
+                112,
+                206,
+                155,
+                213
+            ],
+            "account_name": [
+                110,
+                71,
+                258,
+                81
+            ],
+            "balance": [
+                114,
+                236,
+                151,
+                244
+            ],
+            "account_addrs": [
+                111,
+                82,
+                258,
+                122
+            ],
+            "account_branch": [
+                112,
+                154,
+                181,
+                163
+            ],
+            "account_no": [
+                113,
+                133,
+                179,
+                142
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "SBI",
+                "Account Name",
+                ": Lieutenant Colonel MURALI MARUL MOZHI M",
+                "Address",
+                ": OLD NO.25, NEW NO.14",
+                "METTU STREET, THIRUVIDAIMARUOUR P.O.",
+                "THANJAVUR DISTR, TAMILNADU-812104",
+                "Thanjavur",
+                "Dad",
+                ": 20 Nov 2018",
+                "Account Descripion",
+                "SBCHO-DSP-PUB IND-SILVER-INR",
+                "Account Number",
+                "00000010273549170",
+                "Branch",
+                "TIRUVIDAIMARUDUR",
+                "Drawing Power",
+                ": 0.00",
+                "Interest Rate(% p.a.]",
+                "MOD Balance",
+                "0.00",
+                "CIF No.",
+                "85098765592",
+                "IFS Code",
+                "SBIN0006927",
+                "MICR Code",
+                "612002001",
+                "Nomination Registered",
+                "Balance as on 1 Nov 2018 : 3.37,778.39",
+                "Account Statement from 1 Nov 2018 to 20 Nov 2018",
+                "Txn Date",
+                "Value",
+                "Date",
+                "Description",
+                "Ref No./Cheque",
+                "No",
+                "Debit",
+                "Credit",
+                "Balance",
+                "1 Nov 2018 1 Nov 2018 BY TRANSFER-",
+                "NEFT CIUB0000004\"CIUBH18 FROM",
+                "306026569'TBF NIDHI KUMB 3199419044300",
+                "TRANSFER",
+                "3.542.00",
+                "3,41,320.39",
+                "4 Nov 2018",
+                "4 Nov 2018 TO TRANSFER-INB Granite",
+                "Payment",
+                "ITT3788274",
+                "TRANSFER TO",
+                "20191894512",
+                "45,000.00",
+                "2,96,320.39",
+                "5 Nov 2018 5 Nov 2018 TO TRANSFER-INB Deevali",
+                "ITT4239775",
+                "TRANSFER TO",
+                "34184988279",
+                "2.000.00",
+                "2,94,320.39",
+                "5 Nov 2018",
+                "5 Nov 2018 TO TRANSFER-INB",
+                "IMPS/P2A/B3091995676D/XXX",
+                "XXXXB20CIUB-",
+                "IMPS0006800767",
+                "BMOAAURWBD5",
+                "TRANSFER T",
+                "2.000.00",
+                "2,92,320.39",
+                "6 Nov 2018 6 Nov 2018 TO TRANSFER-INB",
+                "Commission of",
+                "IMP500068007678-",
+                "IMPS0006800767",
+                "BIXK6220748",
+                "TRANSFER T",
+                "1.18",
+                "2,92,319.21",
+                "8 Nov 2018",
+                "8 Nov 2018 TO TRANSFER-INB BSNL",
+                "BSNL Payments-",
+                "PBB 68781597121",
+                "GAESMRCM3",
+                "TRANSFER TO",
+                "797.00",
+                "2,91,522.21",
+                "8 Nov 2018|8 Nov 2018 TO TRANSFER INB BSNL ALL |641299717IGAES",
+                "INDIA CDMA",
+                "TECH_BSNLCDM Payment-",
+                "MRITO",
+                "TRANSFER TO",
+                "500",
+                "990.00",
+                "2,90,532.21",
+                "8 Nov 2018",
+                "8 Nov 2018 TO TRANSFER-INB BSNL ALL |641301063IGAES",
+                "INDIA CDMA",
+                "TECH_BSNLCDM Payment-",
+                "MRSL3",
+                "TRANSFER TO",
+                "747.00",
+                "2,89,785.21",
+                "10 Nov",
+                "2018",
+                "10 Nov",
+                "2018 MPS/P2A/831410826768/XXX 7MQAAVBNNK7",
+                "TO TRANSFER-INB",
+                "XXXX192KVBL-",
+                "IMP90006836334",
+                "TRANSFERT",
+                "50.000.00",
+                "2,39.785.21",
+                "11 Nov",
+                "201",
+                "11 Nov TO TRANSFER-INB",
+                "2018 Commission of",
+                "MP500058363347-",
+                "IMPS0006836334",
+                "7IXK5610682",
+                "TRANSFER T",
+                "2.38",
+                "2,39,782.85",
+                "13 Nov",
+                "201",
+                "13 Nov TO TRANSFER-INB Granite",
+                "2018 balance-",
+                "TT5077289",
+                "TRANSFER TO",
+                "20191894512",
+                "5.000.00",
+                "2,34,782.85",
+                "14 Nov",
+                "2018",
+                "14 Nov TO TRANSFER-INB",
+                "2018 IMPS/P2A/831815570016/XXX",
+                "XXXX192KVBL-",
+                "IMPS0006870228",
+                "1MOAAVKGZX2",
+                "TRANSFER T",
+                "25.000,00",
+                "2.09.782.85"
+            ]
+        },
+        "structured_data": {
+            "1": [
+                [
+                    0,
+                    0,
+                    "Txn Date"
+                ],
+                [
+                    0,
+                    1,
+                    "Value Date"
+                ],
+                [
+                    0,
+                    2,
+                    "Description"
+                ],
+                [
+                    0,
+                    3,
+                    "Ref No./Cheque No"
+                ],
+                [
+                    0,
+                    4,
+                    "Debit"
+                ],
+                [
+                    0,
+                    5,
+                    "Credit"
+                ],
+                [
+                    0,
+                    6,
+                    "Balance"
+                ],
+                [
+                    1,
+                    0,
+                    "1 Nov 2018"
+                ],
+                [
+                    1,
+                    1,
+                    "1 Nov 2018"
+                ],
+                [
+                    1,
+                    2,
+                    "BY TRANSFER- NEFT CIUB0000004\"CIUBH18\n306026569'TBF NIDHI KUMB"
+                ],
+                [
+                    1,
+                    3,
+                    "FROM\n3199419044300 TRANSFER"
+                ],
+                [
+                    1,
+                    4,
+                    ""
+                ],
+                [
+                    1,
+                    5,
+                    "3.542.00"
+                ],
+                [
+                    1,
+                    6,
+                    "3,41,320.39"
+                ],
+                [
+                    2,
+                    0,
+                    "4 Nov 2018"
+                ],
+                [
+                    2,
+                    1,
+                    "4 Nov 2018"
+                ],
+                [
+                    2,
+                    2,
+                    "TO TRANSFER-INB Granite Payment"
+                ],
+                [
+                    2,
+                    3,
+                    "ITT3788274 TRANSFER TO 20191894512"
+                ],
+                [
+                    2,
+                    4,
+                    "45,000.00"
+                ],
+                [
+                    2,
+                    5,
+                    ""
+                ],
+                [
+                    2,
+                    6,
+                    "2,96,320.39"
+                ],
+                [
+                    3,
+                    0,
+                    "5 Nov 2018"
+                ],
+                [
+                    3,
+                    1,
+                    "5 Nov 2018"
+                ],
+                [
+                    3,
+                    2,
+                    "TO TRANSFER-INB Deevali"
+                ],
+                [
+                    3,
+                    3,
+                    "ITT4239775 TRANSFER TO 34184988279"
+                ],
+                [
+                    3,
+                    4,
+                    "2.000.00"
+                ],
+                [
+                    3,
+                    5,
+                    ""
+                ],
+                [
+                    3,
+                    6,
+                    "2,94,320.39"
+                ],
+                [
+                    4,
+                    0,
+                    "5 Nov 2018"
+                ],
+                [
+                    4,
+                    1,
+                    "5 Nov 2018"
+                ],
+                [
+                    4,
+                    2,
+                    "TO TRANSFER-INB IMPS/P2A/B3091995676D/XXX XXXXB20CIUB-"
+                ],
+                [
+                    4,
+                    3,
+                    "IMPS0006800767 BMOAAURWBD5 TRANSFER T"
+                ],
+                [
+                    4,
+                    4,
+                    "2.000.00"
+                ],
+                [
+                    4,
+                    5,
+                    ""
+                ],
+                [
+                    4,
+                    6,
+                    "2,92,320.39"
+                ],
+                [
+                    5,
+                    0,
+                    "6 Nov 2018"
+                ],
+                [
+                    5,
+                    1,
+                    "6 Nov 2018"
+                ],
+                [
+                    5,
+                    2,
+                    "TO TRANSFER-INB Commission of IMP500068007678-"
+                ],
+                [
+                    5,
+                    3,
+                    "IMPS0006800767 BIXK6220748 TRANSFER T"
+                ],
+                [
+                    5,
+                    4,
+                    "1.18"
+                ],
+                [
+                    5,
+                    5,
+                    ""
+                ],
+                [
+                    5,
+                    6,
+                    "2,92,319.21"
+                ],
+                [
+                    6,
+                    0,
+                    "8 Nov 2018"
+                ],
+                [
+                    6,
+                    1,
+                    "8 Nov 2018"
+                ],
+                [
+                    6,
+                    2,
+                    "TO TRANSFER-INB BSNL BSNL Payments-"
+                ],
+                [
+                    6,
+                    3,
+                    "PBB 68781597121 GAESMRCM3 TRANSFER TO"
+                ],
+                [
+                    6,
+                    4,
+                    "797.00"
+                ],
+                [
+                    6,
+                    5,
+                    ""
+                ],
+                [
+                    6,
+                    6,
+                    "2,91,522.21"
+                ],
+                [
+                    7,
+                    0,
+                    "8 Nov 2018|8"
+                ],
+                [
+                    7,
+                    1,
+                    "Nov 2018"
+                ],
+                [
+                    7,
+                    2,
+                    "TO TRANSFER INB BSNL ALL\nINDIA CDMA TECH_BSNLCDM Payment-"
+                ],
+                [
+                    7,
+                    3,
+                    "|641299717IGAES\nMRITO TRANSFER TO 500"
+                ],
+                [
+                    7,
+                    4,
+                    "990.00"
+                ],
+                [
+                    7,
+                    5,
+                    ""
+                ],
+                [
+                    7,
+                    6,
+                    "2,90,532.21"
+                ],
+                [
+                    8,
+                    0,
+                    "8 Nov 2018"
+                ],
+                [
+                    8,
+                    1,
+                    "8 Nov 2018"
+                ],
+                [
+                    8,
+                    2,
+                    "TO TRANSFER-INB BSNL ALL\nINDIA CDMA TECH_BSNLCDM Payment-"
+                ],
+                [
+                    8,
+                    3,
+                    "|641301063IGAES\nMRSL3 TRANSFER TO"
+                ],
+                [
+                    8,
+                    4,
+                    "747.00"
+                ],
+                [
+                    8,
+                    5,
+                    ""
+                ],
+                [
+                    8,
+                    6,
+                    "2,89,785.21"
+                ],
+                [
+                    9,
+                    0,
+                    "10 Nov 2018"
+                ],
+                [
+                    9,
+                    1,
+                    "10 Nov 2018"
+                ],
+                [
+                    9,
+                    2,
+                    "MPS/P2A/831410826768/XXX\nTO TRANSFER-INB XXXX192KVBL-"
+                ],
+                [
+                    9,
+                    3,
+                    "7MQAAVBNNK7\nIMP90006836334 TRANSFERT"
+                ],
+                [
+                    9,
+                    4,
+                    "50.000.00"
+                ],
+                [
+                    9,
+                    5,
+                    ""
+                ],
+                [
+                    9,
+                    6,
+                    "2,39.785.21"
+                ],
+                [
+                    10,
+                    0,
+                    "11 Nov 201"
+                ],
+                [
+                    10,
+                    1,
+                    "11 Nov\n2018"
+                ],
+                [
+                    10,
+                    2,
+                    "TO TRANSFER-INB\nCommission of MP500058363347-"
+                ],
+                [
+                    10,
+                    3,
+                    "IMPS0006836334 7IXK5610682 TRANSFER T"
+                ],
+                [
+                    10,
+                    4,
+                    "2.38"
+                ],
+                [
+                    10,
+                    5,
+                    ""
+                ],
+                [
+                    10,
+                    6,
+                    "2,39,782.85"
+                ],
+                [
+                    11,
+                    0,
+                    "13 Nov 201"
+                ],
+                [
+                    11,
+                    1,
+                    "13 Nov\n2018"
+                ],
+                [
+                    11,
+                    2,
+                    "TO TRANSFER-INB Granite\nbalance-"
+                ],
+                [
+                    11,
+                    3,
+                    "TT5077289 TRANSFER TO 20191894512"
+                ],
+                [
+                    11,
+                    4,
+                    "5.000.00"
+                ],
+                [
+                    11,
+                    5,
+                    ""
+                ],
+                [
+                    11,
+                    6,
+                    "2,34,782.85"
+                ],
+                [
+                    12,
+                    0,
+                    "14 Nov 2018"
+                ],
+                [
+                    12,
+                    1,
+                    "14 Nov\n2018"
+                ],
+                [
+                    12,
+                    2,
+                    "TO TRANSFER-INB\nIMPS/P2A/831815570016/XXX XXXX192KVBL-"
+                ],
+                [
+                    12,
+                    3,
+                    "IMPS0006870228 1MOAAVKGZX2 TRANSFER T"
+                ],
+                [
+                    12,
+                    4,
+                    "25.000,00"
+                ],
+                [
+                    12,
+                    5,
+                    ""
+                ],
+                [
+                    12,
+                    6,
+                    "2.09.782.85"
+                ]
+            ]
+        }
+    }
+}

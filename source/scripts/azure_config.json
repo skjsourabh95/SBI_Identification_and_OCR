@@ -1,0 +1,9 @@
+{
+    "FACE_KEY" : "fedb2a383dd047708737db2847a926f3",
+    "FACE_ENDPOINT" : "https://sbi-face.cognitiveservices.azure.com/",
+    "container_name" : "ocr-docs",
+    "connect_str" : "DefaultEndpointsProtocol=https;AccountName=techgig;AccountKey=RcPuGMrA8+Pq4EQlMp0yhu95QjWLBOPXnXI+hOdMTQRNi9wDzN+TVIMxGchSAozHpdqMRVJWUAj/+AStkoEjrg==;EndpointSuffix=core.windows.net",
+    "FORM_KEY": "f033577a0d2a4787baaaf1bec7657e29",
+    "FORM_ENDPOINT" : "https://documents-sbi.cognitiveservices.azure.com/",
+    "MODEL_ID" : "SBI"
+}

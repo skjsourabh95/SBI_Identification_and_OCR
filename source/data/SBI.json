@@ -1,0 +1,374 @@
+{
+	"docTypes": {
+		"aadhaar": {
+			"fieldSchema": {
+				"name": {
+					"type": "string"
+				},
+				"dob": {
+					"type": "string"
+				},
+				"gender": {
+					"type": "string"
+				},
+				"aadhaar_no": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"aadhaar_no": 0.917,
+				"dob": 0.995,
+				"gender": 0.833,
+				"name": 0.995
+			}
+		},
+		"passport": {
+			"fieldSchema": {
+				"type": {
+					"type": "string"
+				},
+				"country_code": {
+					"type": "string"
+				},
+				"passport_no": {
+					"type": "string"
+				},
+				"surname": {
+					"type": "string"
+				},
+				"given_name": {
+					"type": "string"
+				},
+				"nationality": {
+					"type": "string"
+				},
+				"gender": {
+					"type": "string"
+				},
+				"dob": {
+					"type": "string"
+				},
+				"place_of_birth": {
+					"type": "string"
+				},
+				"place_of_issue": {
+					"type": "string"
+				},
+				"date_of_issue": {
+					"type": "string"
+				},
+				"date_of_expiry": {
+					"type": "string"
+				},
+				"signature": {
+					"type": "signature"
+				},
+				"MRZ": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"MRZ": 0.5,
+				"country_code": 0.833,
+				"date_of_expiry": 0.167,
+				"date_of_issue": 0.5,
+				"dob": 0.333,
+				"gender": 0.5,
+				"given_name": 0.333,
+				"nationality": 0.833,
+				"passport_no": 0.333,
+				"place_of_birth": 0.333,
+				"place_of_issue": 0.167,
+				"signature": 0.167,
+				"surname": 0.333,
+				"type": 0.333
+			}
+		},
+		"AO-PPF": {
+			"fieldSchema": {
+				"account_name": {
+					"type": "string"
+				},
+				"account_opening_amount": {
+					"type": "string"
+				},
+				"account_address": {
+					"type": "string"
+				},
+				"signature": {
+					"type": "signature"
+				},
+				"signature_authority": {
+					"type": "signature"
+				},
+				"account_no": {
+					"type": "string"
+				},
+				"pan_no": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"account_address": 0.833,
+				"account_name": 0.995,
+				"account_no": 0.995,
+				"account_opening_amount": 0.995,
+				"pan_no": 0.667,
+				"signature": 0.667,
+				"signature_authority": 0
+			}
+		},
+		"AO-individual": {
+			"fieldSchema": {
+				"account_no": {
+					"type": "string"
+				},
+				"account_type": {
+					"type": "selectionMark"
+				},
+				"account_name": {
+					"type": "string"
+				},
+				"marital_status": {
+					"type": "selectionMark"
+				},
+				"gender": {
+					"type": "selectionMark"
+				},
+				"address": {
+					"type": "string"
+				},
+				"nationality": {
+					"type": "selectionMark"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"account_name": 0.8,
+				"account_no": 0.8,
+				"account_type": 0.995,
+				"address": 0.995,
+				"gender": 0.995,
+				"marital_status": 0.995,
+				"nationality": 0.995
+			}
+		},
+		"pan": {
+			"fieldSchema": {
+				"name": {
+					"type": "string"
+				},
+				"father_name": {
+					"type": "string"
+				},
+				"dob": {
+					"type": "string"
+				},
+				"pan_no": {
+					"type": "string"
+				},
+				"signature": {
+					"type": "signature"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"dob": 0.995,
+				"father_name": 0.995,
+				"name": 0.995,
+				"pan_no": 0.995,
+				"signature": 0.857
+			}
+		},
+		"AS": {
+			"fieldSchema": {
+				"account_name": {
+					"type": "string"
+				},
+				"account_addrs": {
+					"type": "string"
+				},
+				"account_no": {
+					"type": "string"
+				},
+				"account_branch": {
+					"type": "string"
+				},
+				"IFSC_code": {
+					"type": "string"
+				},
+				"balance": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"IFSC_code": 0.995,
+				"account_addrs": 0.995,
+				"account_branch": 0.8,
+				"account_name": 0.995,
+				"account_no": 0.995,
+				"balance": 0.995
+			}
+		},
+		"dl": {
+			"fieldSchema": {
+				"name": {
+					"type": "string"
+				},
+				"dl_no": {
+					"type": "string"
+				},
+				"address": {
+					"type": "string"
+				},
+				"issued_on": {
+					"type": "string"
+				},
+				"rta": {
+					"type": "string"
+				},
+				"id": {
+					"type": "string"
+				},
+				"customer_signature": {
+					"type": "signature"
+				},
+				"authority_signature": {
+					"type": "signature"
+				},
+				"state": {
+					"type": "string"
+				},
+				"father_name": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"address": 0.5,
+				"authority_signature": 0.667,
+				"customer_signature": 0.667,
+				"dl_no": 0.995,
+				"father_name": 0.833,
+				"id": 0.995,
+				"issued_on": 0.995,
+				"name": 0.995,
+				"rta": 0.995,
+				"state": 0.995
+			}
+		},
+		"IB": {
+			"fieldSchema": {
+				"name": {
+					"type": "string"
+				},
+				"mobileno": {
+					"type": "string"
+				},
+				"email": {
+					"type": "string"
+				},
+				"dob": {
+					"type": "string"
+				},
+				"signature": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"dob": 0.995,
+				"email": 0.995,
+				"mobileno": 0.995,
+				"name": 0.995,
+				"signature": 0.995
+			}
+		},
+		"AO-NPS": {
+			"fieldSchema": {
+				"category": {
+					"type": "selectionMark"
+				},
+				"first_name": {
+					"type": "string"
+				},
+				"last_name": {
+					"type": "string"
+				},
+				"dob": {
+					"type": "string"
+				},
+				"gender": {
+					"type": "selectionMark"
+				},
+				"pan_no": {
+					"type": "string"
+				},
+				"aadhaar_no": {
+					"type": "string"
+				},
+				"POA": {
+					"type": "selectionMark"
+				},
+				"signature": {
+					"type": "signature"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"POA": 0.995,
+				"aadhaar_no": 0.995,
+				"category": 0.995,
+				"dob": 0.6,
+				"first_name": 0.995,
+				"gender": 0.995,
+				"last_name": 0.995,
+				"pan_no": 0.995,
+				"signature": 0.995
+			}
+		},
+		"HL": {
+			"fieldSchema": {
+				"name": {
+					"type": "string"
+				},
+				"gender_male": {
+					"type": "selectionMark"
+				},
+				"unmarried": {
+					"type": "selectionMark"
+				},
+				"nationality": {
+					"type": "string"
+				},
+				"pan_no": {
+					"type": "string"
+				},
+				"sign": {
+					"type": "signature"
+				},
+				"dob": {
+					"type": "string"
+				}
+			},
+			"buildMode": "template",
+			"fieldConfidence": {
+				"dob": 0.995,
+				"gender_male": 0.995,
+				"name": 0.995,
+				"nationality": 0.6,
+				"pan_no": 0.6,
+				"sign": 0.995,
+				"unmarried": 0.995
+			}
+		}
+	},
+	"modelId": "SBI",
+	"createdDateTime": "2022-06-18T18:08:39Z",
+	"apiVersion": "2022-06-30-preview",
+	"description": "SBI DOCUMENTS"
+}

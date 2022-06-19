@@ -1,0 +1,3391 @@
+{
+    "local_path": "../data/sample_data/AO-Form.pdf",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/AO-Form.pdf",
+    "document_classification": "ACCOUNT_OPENING_INDIVIDUAL",
+    "classification_score": 0.991,
+    "faces_detected": {
+        "1": {
+            "face_1": {
+                "score": 0.9985571503639221,
+                "facial_area": [
+                    91,
+                    931,
+                    132,
+                    988
+                ]
+            }
+        }
+    },
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:AO-individual": 0.991
+        },
+        "identified_labels": {
+            "account_type": {
+                "value": "selected",
+                "confidence": 0.994
+            },
+            "address": {
+                "value": "INDASUBCONTENANT",
+                "confidence": 0.994
+            },
+            "gender": {
+                "value": "selected",
+                "confidence": 0.994
+            },
+            "account_name": {
+                "value": "JOHNDOE",
+                "confidence": 0.95
+            },
+            "account_no": {
+                "value": "123.4.567891234567",
+                "confidence": 0.953
+            },
+            "marital_status": {
+                "value": "selected",
+                "confidence": 0.953
+            },
+            "nationality": {
+                "value": "selected",
+                "confidence": 0.994
+            }
+        },
+        "labels_coordinates": {
+            "account_type": [
+                0,
+                2,
+                1,
+                2
+            ],
+            "address": [
+                0,
+                2,
+                3,
+                2
+            ],
+            "gender": [
+                2,
+                3,
+                3,
+                4
+            ],
+            "account_name": [
+                1,
+                3,
+                2,
+                3
+            ],
+            "account_no": [
+                1,
+                2,
+                3,
+                2
+            ],
+            "marital_status": [
+                2,
+                4,
+                2,
+                4
+            ],
+            "nationality": [
+                1,
+                5,
+                1,
+                5
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "PSB",
+                "Accessibility",
+                "Leveraging",
+                "Large",
+                "Interface",
+                "Across",
+                "Nation with",
+                "Convenience &",
+                "Ease",
+                "ACCOUNT OPENING FORM FOR RESIDENT INDIVIDUAL (PART -I)",
+                "(Must accompanied with Terms and Conditions)",
+                "CUSTOMER INFORMATION SHEET (CIF Creation/Amendment)",
+                "Date",
+                "DDMMYYYY",
+                "SBI",
+                "(In case of joint accounts, Part -I (CIF Sheet) and Terms & Conditions to be taken for each customer)",
+                "Branch Name",
+                "Branch Code",
+                "Fields marked asterix (*) are mandatory.Please fill up in BLOCK letters only and use black ink for signature",
+                "(For office use only)",
+                "Bank/Branch to affix rubber stamp of",
+                "name and code no.",
+                "Customer ID",
+                "Application type",
+                "New",
+                "Update",
+                "Account No.",
+                "123.4.567891234567",
+                "Account type",
+                "V",
+                "Normal",
+                "Small",
+                "Minor",
+                "CKYC No.",
+                "Staff",
+                "PF NO.",
+                "(Mandatory for CKYC update request)",
+                "A Personal Details",
+                "1.Name *:",
+                "(Same as ID Proof)",
+                "JOHNDOE",
+                "2.Maiden Name :",
+                "3.Date of Birth *:",
+                "D",
+                "D",
+                "M MYYYY",
+                "4.Gender*",
+                "I R S T NA",
+                "M",
+                "E",
+                "L",
+                "AS TN",
+                "A",
+                "M",
+                "E",
+                "FIRST N",
+                "A ME",
+                "MIDDLENAM",
+                "E",
+                "LASTNAM",
+                "E",
+                "V",
+                "Male",
+                "Female",
+                "Third Gender",
+                "M",
+                "IDD",
+                "L",
+                "EN",
+                "AM",
+                "5.Marital Status",
+                "6.Name of",
+                "7.No. of Dependents",
+                "Married",
+                "Father",
+                "Unmarried",
+                "V",
+                "Single",
+                "Mother",
+                "Spouse*",
+                "F",
+                "-",
+                "R",
+                "S",
+                "T",
+                "N",
+                "A",
+                "M",
+                "E",
+                "(Father's name is mandatory if PAN is not provided)",
+                "8.Illiterate",
+                "YES",
+                "Divorced",
+                "Living Apart.",
+                "Defacto",
+                "M",
+                "-",
+                "DDLENAM",
+                "LLI",
+                "LASTN",
+                "M",
+                "E",
+                "NO",
+                "if yes : Identification Marks :",
+                "9.Name of Guardian",
+                "(In Case Of Minor*)",
+                "10.Nationality:",
+                "F",
+                "IRS",
+                "T",
+                "N",
+                "A",
+                "M",
+                "E",
+                "MIDDLEN",
+                "A",
+                "M",
+                "E",
+                "LASTNAM",
+                "E",
+                "Relationship with Guardian",
+                "V",
+                "In-Indian",
+                "Others",
+                "Country Name",
+                "11.Citizenship:",
+                "12.Occupation Type Service",
+                "State Govt.",
+                "Central Govt.",
+                "Business",
+                "Industrialist",
+                "Trade Sect.",
+                "Import / Export Customer",
+                "Others",
+                "Medical Prof.",
+                "Legal Prof.",
+                "Housewife",
+                "Student",
+                "X-Not categorised-Please specify",
+                "13.Organization's Name:",
+                "Nature of Business:",
+                "14. Annual Income Rs.",
+                "Public Sector Undertaking",
+                "Defence",
+                "Pvt. Sector",
+                "Serv. Sect",
+                "Migrant Labour",
+                "Contractor",
+                "Jeweller / Bullion Trader",
+                "Pawn Shop",
+                "Other Self Employed",
+                "CA/ICWA/Taxation/ Finance",
+                "Eng./Architect/Tech. Consultant",
+                "Retired",
+                "Journalist",
+                "Share and Stock Broker",
+                "Oth. Professional",
+                "Agriculture",
+                "Political / Social Worker",
+                "Designation/Profession:",
+                "15.Net Worth (approx value) Rs.",
+                "16.Religion:",
+                "Hindu",
+                "Muslim",
+                "Christian",
+                "Sikh",
+                "Others",
+                "17.Category:",
+                "General",
+                "OBC",
+                "SC",
+                "ST",
+                "18.Person with disability",
+                "Yes",
+                "No",
+                "If yes,",
+                "i. Visually impaired",
+                "ii. Differently abled",
+                "19.Educational Qualification:",
+                "upto 9th Class passed",
+                "10th Class passed",
+                "Graduate (Gen.)",
+                "Post Graduate(Gen.)",
+                "Med. Graduate/Post Graduate",
+                "Eng. Graduate/Post Graduate",
+                "Law Gradutae/Post Graduate",
+                "CA/ICWA/MBA/CFA",
+                "Computer Degree/Diploma/MCA",
+                "Other Professional Degree/Diploma",
+                "Illiterate",
+                "20.Please Tick the Applicable box *:",
+                "Politically exposed Person",
+                "Related to politically Exposed Person",
+                "None",
+                "(Politically Exposed Persons are individuals who are or have been entrusted with prominent public functions in a foreign countary e.g. Heads of State / Governments, Senior Politicians / Senior Governments/",
+                "Judicials /Military Officers, Senior Executives of State-owned Corporations, important Political Party Officials, etc.)",
+                "21.Country of Tax Residence in India only and not in any other country or territory outside India*",
+                "Yes",
+                "No (If No, please fill the FATCA details form - Annexure II)",
+                "22.PAN*",
+                "(If PAN is not submitted, submit Form 60 - Annexure I)",
+                "B Contact Details (All communications will be sent on provided Mobile No./Email-ID)",
+                "Mobile No.",
+                "Email ID",
+                "STD Tel. (Off):",
+                "STD",
+                "Tel. (Res):",
+                "STD",
+                "1"
+            ],
+            "2": [
+                "C Proof of Identity/Address (Please tick the appropriate Box (any one ID type) and give details)*",
+                "A-PASSPORT",
+                "B-VOTER'S IDENTITY CARD",
+                "C-DRIVING LICENCE",
+                "D-Proof of possession of Aadhaar Number (Verification",
+                "E-KYC",
+                "Offline",
+                "E-NREGA JOB CARD",
+                "F-LETTER ISSUED BY NATIONAL POPULATION REGISTER CONTAINING DETAILS OF NAME & ADDRESS",
+                "Document No/Identification Number*",
+                "Issued By",
+                "Issue Date :*",
+                "D D",
+                "M",
+                "MY YYY",
+                "Expiry Date (If applicable) :*",
+                "D",
+                "D",
+                "M",
+                "MY Y Y Y",
+                "Small Accounts : Only Self Attested Photograph",
+                "D Address details",
+                "Current",
+                "Permanent",
+                "Overseas",
+                "Address type*",
+                "Residential/Business",
+                "Residential",
+                "Business",
+                "Registered Office",
+                "Unspecified",
+                "Address*",
+                "INDASUBCONTENANT",
+                "City/Village*",
+                "District *:",
+                "State :*",
+                "Pin :*",
+                "Country Name*",
+                "E Address details",
+                "Correspondence",
+                "Local",
+                "Same as Current/Permanent Address",
+                "Address type*",
+                "Residential/Business",
+                "Residential",
+                "Business",
+                "Registered Office",
+                "Unspecified",
+                "Address*",
+                "City/Village*",
+                "District *:",
+                "State :*",
+                "Pin :*",
+                "Country Name*",
+                "F If the Offically Valid Document (OVD) does not contain current address-please provide any of the documents below.",
+                "Utility Bill",
+                "PPO/FPPO",
+                "Property or Municipal tax receipt",
+                "Letter of allotment of accomodation issued by employer/ issued by State or Central Government departments, statutory or regulatory bodies, Public sector undertaking, scheduled commercial banks,",
+                "financial institutions and listed companies. Similarly, leave and license agreements with such employers allotting official accomodation.",
+                "Self-Declaration ( If Aadhar is voulatray provided for identification purpose and current address is different form address avilable in Central Identities Data Repository Authentication of Aadhaar number",
+                "using e-KYC authentication facility providede by the UIDAI is mandatory)",
+                "Document No.",
+                "Date",
+                "D",
+                "M",
+                "M",
+                "Y",
+                "Y Y Y",
+                "G DECLARATION CUM UNDERTAKING CUM SELF-CERTIFICATION",
+                "1. I have read the copy of Terms and Conditions of the Account Opening Form given to me. The Terms and Conditions have been explained to me/us and having understood, I accept the same.",
+                "2. I hereby declare that I have submitted the Aadhaar Card issued by UIDAI voluntarily for identification and /or address proof towards the compliance of KYC norms under the PMLA, 2002",
+                "3. I hereby consent that the Bank may verify the same with the UIDAI and authorise the UIDAI expressly to release the identity and address",
+                "through biometric / OTP based authentication to the Bank.",
+                "YES",
+                "NO",
+                "(E-KYC authentication and Aadhaar seeding is mandatory for availing DBT benefit)",
+                "Signature/Thumb impression of the Applicant",
+                "Please sign in black ink only",
+                "Place",
+                "Date",
+                "DDM",
+                "MYYYY",
+                "H FOR OFFICE USE",
+                "Documents received",
+                "Self-certified",
+                "i.Self-certification & documents received as part of account opening process have been verified and found correct.",
+                "True Copies",
+                "Notary",
+                "ii.Certified that Copy of Terms and Conditions signed by Customer obtained",
+                "iii. Certified that the implications and conditions for the operation of the account have been explained to the depositor (only in case of illiterate applicant)",
+                "iv. Threshold Limt",
+                "v. BIS Organistion Code",
+                "vi. Customer Segment",
+                "vii. Depositor",
+                "Illiterate",
+                "Blind",
+                "Staff",
+                "Risk Category :*",
+                "High",
+                "Medium",
+                "Low",
+                "Details of one or two identification marks, if any, such as a mole or scar (mandatory for illiterate applicant)",
+                "In person verification carried out and Signature/LTI of the applicant verified.",
+                "Permitted to open CIF",
+                "Official Name:",
+                "PF No.",
+                "Designation",
+                "Date",
+                "D",
+                "D",
+                "M",
+                "M",
+                "Y",
+                "YY",
+                "Y",
+                "SS No.",
+                "Signature",
+                "2"
+            ],
+            "3": [
+                "ACCOUNT OPENING FORM FOR INDIVIDUAL (PART -II)",
+                "(SAVING BANK, CURRENT ACCOUNT AND TERM DEPOSITS)",
+                "Fields marked asterix (*) are mandatory. Please fill up in BLOCK letters only and use black ink for signature",
+                "(For office use only)",
+                "First Applicant Customer ID",
+                "Second Applicant Customer ID",
+                "Account No.",
+                "Date",
+                "DDM MYYYY",
+                "Bank / Branch to affix rubber stamp of",
+                "name and code no.",
+                "I/We request you to open my / our deposit account with your branch / bank as under: (Tick (v) relevant type of account)",
+                "A Type of Account",
+                "Savings Bank Account",
+                "B Mode of Operation",
+                "Self",
+                "C Services Required",
+                "BSBDA",
+                "Either or Survivor",
+                "BSBDA Small Account",
+                "Former or Survivor",
+                "Current Account (Individual)",
+                "Fixed Deposit / MOD / RD",
+                "Caps Gain (SB)",
+                "Any one or Survivor",
+                "Jointly Operated",
+                "Other",
+                "1 ATM-CUM-DEBIT CARD",
+                "1st Applicant",
+                "Yes",
+                "No",
+                "2nd Applicant",
+                "Yes",
+                "No",
+                "Name as would appear on the card",
+                "Additional Factor of authentication is not mandotory for transactions on International E-Commerce merchants.Card will be supplied with Interantional",
+                "transactions disabled status which can be enabled with avilable channel as and when required.Card can be used for Conatactless transaction upto limit",
+                "prescibed by the Banks from time to time without PIN.",
+                "Card Type",
+                "Ist Applicant",
+                "2nd Applicant",
+                "a) Rupay",
+                "a) Rupay",
+                "b) Visa",
+                "b) Visa",
+                "c) Master",
+                "c) Master",
+                "(Mobile no. is mandatory for services 2 to 6)",
+                "2. CHEQUE BOOK",
+                "Yes",
+                "No",
+                "(Only for Regular SB/Current Accounts/Caps Gain(SB)",
+                "(Not available for Regular BSBD/Small Accounts)",
+                "3. INTERNET BANKING REQUIRED:",
+                "Transaction rights required",
+                "1st Applicant",
+                "Yes",
+                "No",
+                "2nd Applicant",
+                "Yes",
+                "No",
+                "(Available only for singly operated accounts and joint accounts operated by Either or Survivor mode.",
+                "In case of accounts operated as Former or Survivor mode INB facility is available to 1st applicant only)",
+                "Yes",
+                "No",
+                "Yes",
+                "No",
+                "Yes",
+                "No",
+                "4. SMS ALERTS on Registered mobile number",
+                "5. PHONE BANKING SERVICES:",
+                "6. MOBILE BANKING :",
+                "7. PASSBOOK REQUIRED:",
+                "(For Savings Bank Account)",
+                "8. e-Statement (at monthly intervals),",
+                "in lieu of paper copy:",
+                "Yes",
+                "No",
+                "Required",
+                "Not Required",
+                "D Fixed Deposit : For the following products/facilities, please furnish options/details:",
+                "TERM DEPOSIT",
+                "TERM DEPOSIT (REINVESTMENT)",
+                "ANNUITY DEPOSIT",
+                "Amount: Rs.",
+                "Rs. (in words).",
+                "Period:",
+                "Year(s)",
+                "Month(s)",
+                "Days",
+                "In case of Term Deposit, interest payable\"",
+                "Monthly",
+                "Quarterly",
+                "TAX SAVING SCHEME",
+                "CAPS GAIN (TDR)",
+                "Name of Depositor(s), Amount and Period of",
+                "Deposit authenticated by Cash Officer in case",
+                "of Illiterate Depositor",
+                "Initials of Cash",
+                "Officer",
+                "Calendar Quarter",
+                "Maturity instruction@",
+                "Auto renew* principal & payback interest",
+                "Half Yearly",
+                "Yearly",
+                "Auto renew* principal & interest",
+                "Pay principal & interest",
+                "Auto Renew* with part amount for Rs.",
+                "* (Auto Renewal will be done for the similar term at the prevailing interest rate on the date of renewal.)",
+                "@#( All Interest payable and Maturity instructions options will not be offered by all Banks. Contact respective Banks for the options available.)",
+                "Payment instruction (Maturity Proceeds/Residual amount):",
+                "By credit to my Bank Account No.",
+                "E MULTI-OPTION DEPOSIT SCHEME (MOD) / AUTO SWEEP",
+                "Type of Deposit",
+                "Term Deposit",
+                "Term Deposit (Reinvestment)",
+                "Period of Deposit .",
+                "Issue Banker's Chq / Draft",
+                ".Year(s)",
+                "Month(s)",
+                "I/We hereby give consent for debiting my/our account for recovering service charges as normally applicable to Savings Bank and Current Account.",
+                "I/We hereby give consent for debiting my/ our Savings Bank/ Current Account for creating MODS/AUTO SWEEP as per the Terms and Conditions.",
+                "Linked Saving Bank/Current Account No.",
+                "Under reverse sweep facility for breaking the MOD, the MOD to be broken by :*",
+                "Last in first out",
+                "(* In case the applicant does not opt for any option, Last in first out will be the default option.)",
+                "F",
+                "RECURRING DEPOSIT",
+                "FLEXI DEPOSIT",
+                "Monthly / Core Monthly installment: Rs.",
+                "Rs. (In words)",
+                "Standing instruction (if any)",
+                "Debit Account No.",
+                "On Maturity, credit proceeds to Account No.",
+                "Issue Banker's Chq /Draft",
+                "Issue STDR for a period of",
+                "Year(s)",
+                "First in first out",
+                "Period:",
+                "Years:",
+                "Month(s)",
+                "Month(s)",
+                "For the above Term Deposit Account, please deduct applicable TDS from",
+                "(SB/CA Account No.)",
+                "Day(s)",
+                "3",
+                "In Case of Joint Accounts, Income Tax provision will applicable to primary / First Account holder only."
+            ],
+            "4": [
+                "G Nomination (If required, fill Form DA-1)",
+                "FORM DA-1 (Nomination Form)",
+                "Details of Nomination:",
+                "Registration No.",
+                "Nomination under section 45ZA of the Banking Regulation Act, 1949 and Rules 1985 in respect of Bank Deposits.",
+                "I/We",
+                ". nominate the following person to whom in the event of my / minor's death the amount of this deposit, particulars of which are given",
+                "below, may be returned by the State Bank of India,",
+                "(Name & address of the branch /office in which the deposit is held.)",
+                "I/We want the name of the nominee to be printed on the passbook",
+                "Details of Deposit",
+                "Type of Deposit:",
+                "Details of Nominee",
+                "Account Number:",
+                "Name:",
+                "Mobile Number of the Nominee",
+                "Relationship with the Depositor.",
+                "Age .......",
+                ".Years",
+                "Date of Birth of nominee (in case of minor)",
+                "DDMMYYYY",
+                "As the nominee is a minor on this date, I appoint Shri / Smt / Kum.",
+                "Age",
+                "Years",
+                "Address",
+                "(Nimination in favour of other than Individual is invalid)",
+                "to receive the amount of deposit on behalf of the nominee in the event of my / minor's death during the minority of the nominee",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "Signature of the first witness",
+                "Signature of the second witness",
+                "Name:",
+                "Signature :",
+                "Name:",
+                "Signature :",
+                "Address",
+                "Address",
+                "(Witnesess are required only in case of applicant is illiterate and if affixing thumb impression)",
+                "I/We do not want to nominate any person in this account",
+                "Date",
+                "D",
+                "D",
+                "M",
+                "MY YYY",
+                "Place",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "H DECLARATION CUM UNDERTAKING CUM SELF - CERTIFICATION",
+                "I/We have read the copy of Terms and Conditions of the Account Opening Form given to me / us. The Terms and Conditions have been explained to me/us and having understood, I / we accept the same.",
+                "(In case of Minor Accounts)",
+                "I hereby declare that date of birth of the minor who is my",
+                "... is",
+                ".and I am his/her natural and lawful guardian/guardian appointed by court order dated.",
+                ".. (copy enclosed)",
+                "I shall represent the said minor in all future transactions of any description in the above account until the said minor attains majority. I indemnify the bank against the claim of the above minor for any",
+                "withdrawal/transactions made by me in his/her account).",
+                "3",
+                "(Applicable in case of Term Deposit Accounts-(Strike out if not required))",
+                "I/We undertake that in case of term deposits with operating instructions \"Either or Survivor\", or \"Former or Survivor\" in line with the operating instructions of the application-cum-deposit slip, premature",
+                "termination/payment will be allowed to the survivor in event of the death of the either of the depositors or former as the case may be on submission of the death certificate of the deceased depositors along with",
+                "application without obtaining consent of the legal heirs of the deceased depositors.",
+                "4",
+                "I hereby declare that I do not maintain a Basic Savings Bank Deposit Account (BSBDA) with any other Bank/Branch (Applicable in case of BSBD Account)",
+                "Place:",
+                "Date: D",
+                "D",
+                "M MYYYY",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "(Signature of the Applicant/Thumb impression of the Applicant)",
+                "FOR OFFICE USE/ATTESTATION",
+                "(for office use only)",
+                "Queue No.",
+                "Initials",
+                "Open Account",
+                "Account",
+                "Date:",
+                "DD MMYYYY",
+                "(Authorised signatory)",
+                "CIF Linking",
+                "i)",
+                "Internet Banking (INB) Kit No .:",
+                "ii",
+                "INB Viewing rights",
+                "Transaction rights",
+                "given on:",
+                "iii)",
+                "ATM Card data transmitted on:",
+                "iv)",
+                "Nomination Serial No .:",
+                "v)",
+                "Threshold (KYC) limit:",
+                "vi)",
+                "Phone Banking",
+                "INITIALS",
+                "INITIALS",
+                "INITIALS",
+                "INITIALS",
+                "INITIALS",
+                "INITIALS",
+                "Personalised Cheque",
+                "RINB",
+                "MBS",
+                "SMS Alert",
+                "Removal of Posting",
+                "Scanning",
+                "4"
+            ],
+            "5": [
+                "TERMS AND CONDITIONS FOR OPENING OF DEPOSITS ACCOUNTS",
+                "1.",
+                "I affirm and declare that I have read over and understood the rules and regulations of the \"Bank\" and those relating to various services offered by the Bank including but not limiting to debit card/internet",
+                "banking/SMS banking/Tele-Banking/Mobile Banking/Virtual Banking and any other facilities. I agree to abide by the same as amended/modified from time to time by the Bank/Regulator/Government",
+                "published through circulars, notifications, notice board/websites/newspaper publications, etc. I waive the rights, if any, to have personal notice in respect of such amendments/modifications.I agree",
+                "that the transactions and requests executed in my account(s)through internet, mobile, tele- banking or virtual banking under my User ID and password/PIN/OTP will be legally binding on me & I am",
+                "responsible for the maintenance of secrecy and confidentiality of the authentication credentials and any other information/details/OTP/PIN, etc ., in such matters. I agree that Bank has got all the rights",
+                "to debit my account for any service charge, expenses or other dues which the Bank is entitled/ liable to recover from me. I also authorise the Bank and agree to close/discontinue my account without",
+                "any notice to me(under normal circumstance , bank will not close account without giving 30 days notice indicating reason for closure).I hereby undertake to inform the Bank on any change in my",
+                "communication address or constitution.",
+                "2.",
+                "In respect of accounts opened on the basis of Aadhaar details, I hereby declare that I have submitted the Aadhaar Card issued by UIDAI voluntarily for identification and /or address proof towards the",
+                "compliance of KYC norms under the PMLA, 2002 and I hereby consent that the Bank may verify the same with the UIDAI and authorise the UIDAI expressly to release the identity and address through",
+                "biometric authentication to theBank. I wish to seed this account with NPCI mapper to enable me to receive Direct Benefit Transfer (DBT) including LPG subsidy from Govt of India (GOI) in this account.",
+                "I understand that if more than one benefit transfer is due to me, I will receive all the benefit transfer in this account.",
+                "3.",
+                "I confirm and declare that I am not prevented/prohibited/restricted by any applicable legal/regulatory/contractual or other provisions from opening and/or maintaining the accounts or to transact with",
+                "the Bank in any other way.",
+                "4.",
+                "I agree that my personal KYC details may be shared with Central KYC registry or any other competent authority. I hereby consent to receive information from the Bank/Central KYC Registry/Gol/RBI",
+                "or any other authority through SMS/e-mail on my registered mobile number/ e-mail address. I also agree that the non-receipt of any such SMS/e-mail shall not make the Bank liable for any loss or",
+                "damage whatsoever in nature.",
+                "5.",
+                "I hereby certify that I have declared my status as per the rules applicable under section 285BA of the Income Tax Act, 1961 as notified by Central Board of Direct Taxes (CBDT) vide Notification No. S.O.",
+                "2155(E) dated 7 August 2015 and RBI Circular Ref No. DBR.AML.BC.No.36/14.01.001/2015-16 dated 28 August 2015 in the matter including any subsequent modification/amendment thereof.",
+                "6.",
+                "I understand, acknowledge and authorize that as per the provisions of Income Tax Act, Rules made thereunder and the guidelines issued by the Government/RBI in the matter,depending upon the",
+                "residential status and/or other criteria stipulated therein, the Bank may have to report the details in respect of my account(s) as per the prescribed format to the Central Board of Direct Taxes (CBDT)or",
+                "other Government Agencies to comply with the obligations as per the Inter- Governmental Agreements (IGA) in respect of Foreign Accounts Tax Compliance Act (FATCA) and Common Reporting",
+                "Standards (CRS) and / or any other similar arrangements.",
+                "7.",
+                "I certify & declare that the information provided by me for opening loan account and availing other services herein or through website/electronically as applicable to me signed/authenticated by me as",
+                "well as in the documentary evidence provided by me for opening loan account and availing other services are, to the best of my knowledge and belief, true, correct and complete and that I have not",
+                "withheld any material information that may affect the assessment/categorization of my account as a U.S. Reportable Account or Other Reportable Account or otherwise. In case any of the information",
+                "or details provided by me is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held liable for it.",
+                "8.",
+                "I undertake the responsibility to declare and disclose immediately and in no case beyond 30 days from the date of change, any changes that may take place in the information provided herein/or",
+                "otherwise, as well as in the documentary evidence provided by me or if any certification becomes incorrect or undergoes a change. I further undertake to provide fresh and valid self-certification along",
+                "with documentary evidence as and when so required; nevertheless all declaration and undertaking given herein will also be applicable to all such modified/amended document/information provided by",
+                "me unless revised self-certification as above is provided to the Bank.",
+                "9.",
+                "I also agree that my failure to disclose any material fact/information known to me now or in future or my failure to remedy any deficiency in documents/information/other details within the stipulated",
+                "period, may invalidate me from transacting in the account and the Bank would be within its right to put restrictions in the operations of my account or to close it or to report to any regulator and/or any",
+                "authority designated by the Government of India(Gol)/RBI for the said purpose or take any other action as may be deemed appropriate by the Bank under the guidelines issued by CBDT/RBI/Gol from",
+                "time to time.",
+                "10.",
+                "I also agree to furnish and intimate to the Bank any other particulars that are called upon me to provide on account of any change in law either in India or abroad in the above matter or otherwise.",
+                "11.",
+                "I shall indemnify the Bank from any loss/damage that may be caused to the Bank on account of any defect/mistake in the details provided herein or on account of providing incorrect or incomplete",
+                "information by me.",
+                "12.",
+                "I undertake to submit data/information together with fresh KYC documents for updation of KYC details at periodical intervals as may be required by the Bank.",
+                "13.",
+                "I understand that the account will be activated and debits will be allowed only after completion of Customer Due Diligence relating to KYC by the Bank.",
+                "14.",
+                "In case the account is opened without PAN, I undertake to submit PAN on or before such date as may be notified by the Government of India, failing which the account shall cease to be operational till",
+                "the time PAN is submitted, as per Prevention of Money -Laundering (Maintenance of Records ) Rules 2005.",
+                "15. In case, deemed OVDs are submitted for Current Address at the time of Account opening, I undertake to submit Aadhaar or any of the OVD having Current Address within 3 months from the date of",
+                "account opening, failing which I understand that my account may cease to be operational as per GOI guidelines at the material time.",
+                "16.",
+                "I have received the Welcome Kit containing INB Kit and ATM card/cheque book and understand that in case of any misuse/misplacement of the contents of the Kit, the Bank will not be liable for any",
+                "loss/damage.",
+                "17.",
+                "I hereby certify that the Savings Bank Account would be used by me to route transactions of only non-business/non-commercial nature.In the event of occurrence of such transactions or any such",
+                "transactions that may be construed as commercial/business/dubious or undesirable, the Bank reserves the right to unilaterally freeze operations in such accounts and /or close the account.",
+                "18.",
+                "I have been advised of Average Monthly Balance(AMB) requirement for the account to be opened and given to understand that these requirements are subject to revision/changes and such",
+                "revision/changes will be uploaded in the Bank's site which will be acceptable to me as a notice to that effect.",
+                "19.",
+                "I confirm that the product features of BSBD account have been explained to me(applicable to BSBD account applicant)",
+                "20.",
+                "Applicable for Small Accounts: I undersatnd that this account shall remain operational initially for twelve months, can be extended for further twelve months on submission of evidence applied for",
+                "OVD. The entire relaxation/ provisions shall be reviewed after twenty four months.",
+                "21.",
+                "I have been advised that if I do not provide my mobile number, I will not be eligible for any facility of electronic transactions other than ATM cash withdrawals.",
+                "22.",
+                "(Applicable for accounts opened for credit of Social Welfare Benefits)",
+                "I understand that this account will be opened under BSBD category. I also understand that in case, I do not wish to continue in this BSBD account, and switch over to Regular Savings Bank account, I will",
+                "have to maintain the Average Monthly Balance(AMB) applicable for Regular Savings Bank Account.I therefore undertake to maintain AMB in the account if I switch over to Regular Savings Bank Account",
+                "from BSBD.",
+                "23.",
+                "(Applicable for accounts opened in the name of Minors)",
+                "I understand that the requirements of Average Monthly Balance(AMB) and penalty for non-maintenance will be applicable in this account once the applicant becomes Major.I therefore undertake to",
+                "maintain Average Monthly Balance(AMB) from the date of attaining majority.",
+                "24.",
+                "I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes therein, immediately in case any of the above",
+                "information is found to be false or untrue or misleading or misrepresenting. I am aware that I may be held liable for it.",
+                "25.",
+                "I confirm and undertake that I will not deal in virtual currencies and will not use my account for any services relating to virtual currencies or facilitate any person or entity in delaing with or settling Virtual",
+                "Virtual Currencies.",
+                "26.",
+                "I understand that in the event of failed Standing Instruction for Loan Repayment / dishonour of a cheque/NACH/ECS due to lack of funds / insufficient funds on 04 occasions during financial yearno fresh",
+                "cheque book would be issued ., closure of account may also be considerd.",
+                "27.",
+                "I/We confirm that the product features of account have been explained to me",
+                "28. I acknowledge receipt of rules and regulations of Savings Bank Account.",
+                "(Signature of the Applicants/Thumb impression of the Applicants)",
+                "(Signature of the Applicants/Thumb impression of the Applicants)",
+                "ACKNOWLEDGEMENT DA-1",
+                "We acknowledge receipt of nomination made by you in favour of:",
+                "Name of the Nominee.",
+                "Age:",
+                "Years:",
+                "Date:",
+                "Yours faithfully",
+                "With respect to your Account Number",
+                "Registration No.",
+                "5",
+                "Signature of Bank Official with Seal"
+            ],
+            "6": [
+                "SAVINGS BANK RULES (ABRIDGED)",
+                "Know Your Customer Guidelines",
+                "Any person fulfilling account opening requirements may, upon agreeing to comply with the prescribed rules, open a Savings Bank Account, provided she/he furnishes proof of identity and proof of address",
+                "as required by the Bank.",
+                "Nomination & Survivorship Facility",
+                "The nomination facility is available on Savings Bank Accounts and the account holders are advised to avail of this facility for smooth settlement of claim by legal heirs in unforeseen circumstances. Nomination",
+                "can be made in favour of only one nominee. In case they do not wish to make a nomination, the fact should be recorded on the account opening form under their full signature. Joint account with survivorship",
+                "benefit can be operated by the survivor, in such circumstances. Types of Accounts, Balance Stipulation & Service Charges The applicants can open an account either with chequebook facility or without",
+                "chequebook. The current monthly average balances prescribed for SB accounts and the charges prescribed for non maintenance of minimum balance, are available at the Banks website and Contact Centre.",
+                "The information can also be obtained from Branches. There is no ceiling on maximum balance in Savings Bank account, except for Minors account.",
+                "Minors Accounts",
+                "Minors who can adhere to uniform signature and are not less than ten years old can open accounts in their single name and maintain therein a maximum balance of Rs. 10,00,000/ (Rs. Ten lacs only). Minors",
+                "may open joint accounts with their guardians.",
+                "How To Open An Account?",
+                "In ordinary course, applicant(s) should attend the Bank personally for completion of formalities for opening the account. They will duly fill in and sign the prescribed application form.Applicant(s) should submit",
+                "KYC documents, declaration as applicable for RBI/CBDT and two copies of his/her/ their recently taken passport size photographs. Applicants can also apply for opening an account online.Account holders",
+                "signatures must be legible and well formed. Signatures should not be in capital or block letters. Each account will be given a distinctive account number. While dealing with the Bank, this number should be",
+                "invariably quoted by the account holder(s). The account holders, in their self-interest, are expected to adhere to uniform signature as per specimen recorded with the Bank while operating the accounts and",
+                "addressing any correspondence to the Bank.",
+                "Pass Book",
+                "The pass book and cheque book supplied to the account holder should be kept in a safe place. The Bank will not be responsible for any loss or incorrect payment attributable to the account holders neglect in",
+                "this regard. For withdrawing cash by means of a withdrawal form, the pass book must be presented. Withdrawals using cheque forms and Debit card can be effected without pass book. Deposits may be",
+                "made without production of the pass book. Pass book should be got updated regularly. The pass book will be returned to the account holder immediately after completion of the transaction duly updated. In",
+                "case it is not collected within a weeks time, it will be returned to them by Registered A.D. post/ Courier at their cost. The account holders should carefully examine the entries in their pass books and draw the",
+                "Banks attention to errors or omissions, if any. Duplicate in lieu of the lost or mutilated pass book may be issued on receipt of a written request from the account holder after necessary enquiries, completion",
+                "of formalities and recovery of prescribed charges. The current charges prescribed for this are available at the Banks website and Contact Centre. This information can also be obtained from Branches.",
+                "Cheque Book",
+                "The Bank will issue the first cheque book after completion of all formalities with regard to opening of the account. Bank shall issue Cheque Book subject to recovery of charges as applicable. The current",
+                "charges prescribed for this are available at the Banks website and Contact Centre. This information can also be obtained from Branches. The account holders must use only the cheques from the cheque",
+                "books issued to them by the Bank. The Bank reserves the right to refuse payment of any cheques drawn otherwise. Ordinarily, Bank will not issue more than one cheque book at a time or before exhausting",
+                "all or nearly all cheque leaves issued previously. Cheques must be written legibly. Stop payment instructions in respect of cheques issued or lost can be registered with the Bank on payment of a prescribed",
+                "service charge. The current charges prescribed for this are available at the Banks website. This information can also be obtained from Branches.",
+                "General",
+                "Savings Bank account is essentially a facility to build up savings and hence must not be used as a Current Account. Bank may close an account should it have any reason to believe that the account holder has",
+                "used her/his account for a purpose for which it is not allowed.",
+                "Deposits",
+                "Only three cash deposit tranactions are allowed free of cost in a month. No restrictions on cash deposit at Non Home branch. No deposit in cash for less than Rs 10/- will be accepted. Cheques, drafts or other",
+                "instruments drawn only in favour of the account holder will be accepted for credit of the account. Third party instruments endorsed in favour of the account holder will NOT be accepted. No drawings against",
+                "accepted instruments will be normally permitted until these are realized. In satisfactorily conducted accounts, immediate credit will be afforded for outstation / local instruments upto the value laid down",
+                "from time to time. The normal collection and out of pocket charges will be recovered. The current limit and charges prescribed for this are available at the Banks website and Contact Centre. This information",
+                "can also be obtained from Branches. Overdue interest will be recovered for instruments subsequently returned unpaid.",
+                "Withdrawals",
+                "The account holder can withdraw money personally from her/his ordinary Savings Bank Account by using Banks standard withdrawal form. The Pass Book /any OVD must accompany the withdrawal form.",
+                "The withdrawal form can be used only for receiving payments by the accountholder himself/ herself. ATM cum Debit card can also be used in ATMs for cash withdrawal. The account holder cannot withdraw",
+                "an amount less than Rs. 50/ -. All withdrawals must be in round Rupees only. Third party payments through withdrawal forms are not permitted. A letter of authority as per the prescribed format, along with",
+                "the pass book should be sent to the Bank through an authorized representative to receive payment in case the account holder is unable to attend personally to withdraw cash from her/his account. The",
+                "minimum drawing permitted per cheque form is limited to Rs. 50. The maximum number of free debit entries permitted in an account depends on the AMB in the account or as decided by the Bank from time",
+                "to time. Charges prescribed for exceeding this limit are available at the Banks website and Contact Centre. This information can also be obtained from Branches. Cash withdrawal can be made from the",
+                "accounts of the sick, old or incapacitated account holders who are unable to attend the Bank and/or also not able to put their signature or thumb impression for withdrawing cash by completing the laid down",
+                "formalities.",
+                "Overdrafts",
+                "Overdrafts in Savings Bank accounts may be permitted under exceptional circumstances with prior arrangements only. Cheques drawn in excess of the balance in the account will be returned unpaid. Service",
+                "charge will be recovered each time a cheque is returned unpaid for want of sufficient funds. Charges prescribed for this are available at the Banks website and Contact Centre This information can also be",
+                "obtained from Branches.",
+                "Inoperative Accounts",
+                "Account holders are advised to operate their accounts regularly. Accounts not operated are classified as Inoperative after the stipulated time period of 24 months since last operation. The current prescribed",
+                "charges in this regard are available at the Banks website and Contact Centre. This information can also be obtained from Branches.",
+                "Standing Instructions",
+                "The account holder can request the Bank for effecting periodical payment of insurance premium, membership fees, etc. by debit to her/ his account on payment of service charges. The current prescribed",
+                "charges for Standing Instruction are available at the Banks website. This information can also be obtained from Branches.",
+                "Payment of Interest",
+                "As per RBI guidelines applicable from time to time. Interest will be calculated on a daily product basis. Interest will be credited to the account at quarterly intervals. Interest will be paid only if it works out to Re",
+                "1/-or more. There after fifty paise and more will be rounded off to the next higher rupee and anything less will be ignored. In case of accounts frozen by the enforcement authorities,",
+                "Transfer & Closure Of Account",
+                "Accounts may be transferred between branches of the Bank at the request of the account holder(s). Request for closure of account should state the reason for closure. The pass book must accompany such",
+                "request. Joint accounts can be closed only at the request of all such joint signatories. Service charge at prescribed rate will be recovered if an account is closed after 14 days upto one year of its opening. The",
+                "current charges prescribed for this are available at the Bank's website. This information can also be obtained from Branches. Accounts can be transferred ONLINE also.",
+                "Change in Rules",
+                "The Bank reserves the right to alter, delete or add to any of these Rules and service charges for which the customer will be duly notified through Bank's website and/or branch notice board.",
+                "Features of BSBD account.",
+                "i. The deposit of cash at bank branch as well as ATMs/CDMs",
+                "ii. Receipt / credit of money through any electronic channel or by means of deposit / collection of cheques drawn by Central / State Government agencies and departments.",
+                "iii. No limit on number and value of deposits that can be made in month.",
+                "iv. Minimum 4 withdrawals including ATM withdrawals",
+                "v. ATM Card or ATM-cum-Debit Card",
+                "-",
+                "-",
+                "6"
+            ],
+            "7": [
+                "Income-tax Rules, 1962",
+                "FORM NO.60",
+                "[See second proviso to rule 114B]",
+                "Annexure-1",
+                "rule 114B",
+                "Form for declaration to be filed by an individual or a person (not being a company or firm) who does not have a permanent",
+                "account number and who enters into any transaction specified in",
+                "1",
+                "First Name",
+                "Middle Name",
+                "Surname",
+                "2",
+                "Date of Birth / Incorporation of declarant",
+                "3",
+                "Father\u2019s Name (in case of individual)",
+                "4",
+                "Flat No./Floor No.",
+                "5",
+                "Name of premises / Block Name & No.",
+                "6",
+                "Road / Street / Lane",
+                "7",
+                "Area / Locality",
+                "8. Town/District/State",
+                "9",
+                "Pin code",
+                "10 Telephone Number (with STD code)",
+                "11 Mobile Number",
+                "12 Amount of Transaction (Rs.)",
+                "13 Date of Transaction",
+                "14 In case of transaction in joint names,",
+                "number of persons involved in",
+                "the transaction",
+                "15 Mode of transaction",
+                "Cash",
+                "Cheque",
+                "Card",
+                "Draft/Banker\u2019s Cheque",
+                "Online transfer",
+                "Other",
+                "16 Aadhaar Number issued by UIDAI (if available) :",
+                "17 If applied for PAN and it is not yet generated, enter date of application and acknowledgement number: __________________",
+                "Date :",
+                "____________________________________________________________________________________",
+                "_______________",
+                "18",
+                "If PAN not applied, fill estimated total income (including income of spouse, minor child, etc ., as per section 64 of Income-tax",
+                "Act, 1961) for the financial year in which the above transaction is held (a) Agricultural income (Rs.)",
+                "(b) Other than Agr. Income (Rs.) _________________________________________________",
+                "19 Details of document being produced in",
+                "support of identify in Column 1 (Refer",
+                "Instruction overleaf)",
+                "Document",
+                "code",
+                "Document",
+                "identification",
+                "number",
+                "Name and address of the",
+                "authority issuing",
+                "the document",
+                "20 Details of document being produced in",
+                "support of identity in Column 4 to 13",
+                "(Refer Instruction overleaf)",
+                "Document",
+                "code",
+                "Document",
+                "identification",
+                "number",
+                "Name and address of the",
+                "authority issuing",
+                "the document",
+                "Verification",
+                "I, _______________________________________________________________________ do hereby declare that what is stated",
+                "above is true to the best of my knowledge and belief. I further declare that I do not have a Permanent Account Number and",
+                "my / our estimated total income (including income of spouse, minor child etc., as per section 64 of Income Tax Act, 1961)",
+                "computed in accordance with the provisions of Income tax Act, 1961 for the financial year in which the above transaction is",
+                "held will be less than maximum amount not chargeable to tax.",
+                "________________",
+                "Verified today the",
+                "day of",
+                "20 ____________",
+                "Place :",
+                "(Signature of declarant)",
+                "Note: Before signing the declaration, the declarant should satisfy himself that the information furnished in this form is true,",
+                "correct and complete in all respects. Any person making a false statement in the declaration shall be liable to prosecution",
+                "under section 277 of the Income-tax Act, 1961 and on conviction be punishable,",
+                "(i) in a case where tax sought to be evaded exceeds twenty-five lakh rupees, with rigorous imprisonment which shall not be",
+                "less than six months but which may extend to seven years and wi",
+                "th fine;",
+                "(ii) in any other case, with rigorous imprisonment which shall not be less than three months but which may extend to two",
+                "years and with fine.",
+                "2. The person accepting the declaration shall not accept the declaration where the amount of income of the nature referred to in",
+                "item 22b exceeds the maximum amount which is not chargeable to",
+                "tax, unless PAN is applied for and column 21 is duly filled.",
+                "7"
+            ],
+            "8": [
+                "Instruction:",
+                "(1) Documents which can be produced in support of identity and address (not required if applied for PAN and item 20 is filled): -",
+                "SI. Nature of Documents",
+                "Document",
+                "Code",
+                "Proof of",
+                "Identity",
+                "Proof of",
+                "Address",
+                "A",
+                "For Individuals and HUF",
+                "1",
+                "AADHAAR card",
+                "01",
+                "Yes",
+                "Yes",
+                "2",
+                "Bank/Post office passbook bearing photograph of the person",
+                "02",
+                "Yes",
+                "Yes",
+                "3",
+                "Elector's photo identity card",
+                "03",
+                "Yes",
+                "Yes",
+                "4",
+                "Ration/Public Distribution System card bearing photograph",
+                "of the person",
+                "04",
+                "Yes",
+                "Yes",
+                "5",
+                "Driving License",
+                "05",
+                "Yes",
+                "Yes",
+                "6",
+                "Passport",
+                "06",
+                "Yes",
+                "Yes",
+                "7",
+                "Pensioner Photo card",
+                "07",
+                "Yes",
+                "Yes",
+                "8",
+                "National Rural Employment Guarantee Scheme (NREGS) Job Card",
+                "08",
+                "Yes",
+                "Yes",
+                "9",
+                "Caste or Domicile certificate bearing photo of the person",
+                "09",
+                "Yes",
+                "Yes",
+                "10",
+                "Certificate of identity/address signed by a Member of Parliament",
+                "or Member of Legislative Assembly or Municipal Councillor or a",
+                "Gazetted Officer as per annexure A prescribed in Form 49A",
+                "10",
+                "Yes",
+                "Yes",
+                "11",
+                "Certificate from employer as per annexure B prescribed in Form 49A",
+                "11",
+                "Yes",
+                "Yes",
+                "12",
+                "Kisan passbook bearing photo",
+                "12",
+                "Yes",
+                "No",
+                "13",
+                "Arm's license",
+                "13",
+                "Yes",
+                "No",
+                "14",
+                "Central Government Health Scheme/ Ex -Service men",
+                "Contributory Health Scheme",
+                "14",
+                "Yes",
+                "No",
+                "15",
+                "Photo identity card issued by the Government/Public Sector Undertaking",
+                "15",
+                "Yes",
+                "No",
+                "16",
+                "Electricity bill (Not more than 3 months old)",
+                "16",
+                "No",
+                "Yes",
+                "17",
+                "Landline Telephone bill (Not more than 3 months old)",
+                "17",
+                "No",
+                "Yes",
+                "18",
+                "Water bill (Not more than 3 months old)",
+                "18",
+                "No",
+                "Yes",
+                "19",
+                "Consumer gas card/book or piped gas bill (Not more than 3 months old)",
+                "19",
+                "No",
+                "Yes",
+                "20",
+                "Bank Account Statement (Not more than 3 months old)",
+                "20",
+                "No",
+                "Yes",
+                "21",
+                "Credit Card Statement (Not more than 3 months old)",
+                "21",
+                "No",
+                "Yes",
+                "22",
+                "Depository Account Statement (Not more than 3 months old)",
+                "22",
+                "No",
+                "Yes",
+                "23",
+                "Property registration document",
+                "23",
+                "No",
+                "Yes",
+                "24",
+                "Allotment letter of accommodation from Government",
+                "24",
+                "No",
+                "Yes",
+                "25",
+                "Passport of spouse bearing name of the person",
+                "25",
+                "No",
+                "Yes",
+                "26",
+                "Property tax payment receipt (Not more than one year old)",
+                "26",
+                "No",
+                "Yes",
+                "B",
+                "For Association of persons (Trusts)",
+                "Copy of trust deed or copy of certificate of registration issued",
+                "by Charity Commissioner",
+                "27",
+                "Yes",
+                "Yes",
+                "C",
+                "For Association of persons (other than Trusts) or Body of Individuals or Local authority or Artificial",
+                "Juridical Person)",
+                "Copy of Agreement or copy of certificate of registration issued by Charity",
+                "Commissioner or Registrar of Cooperative Society or any other competent",
+                "authority or any other document originating from any Central or State",
+                "Government Department establishing identity and address of such person.",
+                "28",
+                "Yes",
+                "Yes",
+                "(2) In case of a transaction in the name of a Minor, any of the above-mentioned documents as proof of Identity and Address of",
+                "any of parents/guardians of such minor shall be deemed to be the proof of identity and address for the minor declarant,",
+                "and the declaration should be signed by the parent/guardian.",
+                "(3) For HUF any document in the name of Karta of HUF is required.",
+                "(4) In case the transaction is in the name of more than one person, the total number of persons should be mentioned in SI. No.",
+                "18 and the total amount of transaction is to be filled in SI. No. 16.",
+                "In case the estimated total income in column 22b exceeds the maximum amount not chargeable to tax, the person should apply",
+                "for PAN, fill out item 21 and furnish proof of submission of application.",
+                "8"
+            ],
+            "9": [
+                "Annexure-2",
+                "Details of Related Person (To be filled for minor)",
+                "Customer ID:",
+                "CKYC No.:",
+                "Account No.:",
+                "Name*:",
+                "FIRSTNAME",
+                "MIDDLENAME",
+                "LASTNAME",
+                "Addition of Related Person",
+                "Deletion of Related Person",
+                "KYC of Related Person (If Available)*",
+                "Related Person type*",
+                "Guardian of Minor",
+                "Assignee",
+                "Authorised Representative",
+                "Name*:",
+                "FIRSTNAME",
+                "MIDDLENAME",
+                "LASTNAME",
+                "Prefix",
+                "(If KYC Number and name are provided, below details are optional)",
+                "PROOF OF IDENTITY(POI) OF RELATED PERSON*",
+                "A-PASSPORT",
+                "B-VOTER'S IDENTITY CARD",
+                "C-DRIVING LICENCE",
+                "D-UID (AADHAAR)",
+                "E-NREGA JOB CARD",
+                "F-LETTER ISSUED BY NATIONAL POPULATION REGISTER CONTAINING DETAILS OF NAME & ADDRESS",
+                "G-OTHERS",
+                "(Any Document notified by the Central Government/RBI)",
+                "Document No/Identification Number*",
+                "Issue date*:",
+                "DDMMYYYY",
+                "Expiry Date(If Applicable)*:",
+                "DDMMYYYY",
+                "Remarks : _____________________________________________________________________________________________________________________________________________________________________",
+                "FATCA Declaration Form",
+                "Customer ID:",
+                "CKYC No.:",
+                "Account No.:",
+                "Name*:",
+                "Prefix",
+                "FIRSTNAME",
+                "MIDDLENAME",
+                "LASTNAME",
+                "Citizenship*:",
+                "IN-India",
+                "Others",
+                "Country Name:",
+                "Place/City of Birth*:",
+                "Country of Birth*:",
+                "Address*:",
+                "City/Village*:",
+                "District*:",
+                "State*:",
+                "Pin*:",
+                "Multiple Tax Residency: Details of Country of Tax Residence in India, and/or in USA@ and /or In any other Country or Territory Outside India as Under:",
+                "Country of Tax Residence#",
+                "Tax Identification number or equivalent if issued by jurisdicti",
+                "on",
+                "Identification type (TIN or Other, please specify)",
+                "@ * A citizen of US including individual born in US but resident in another country (who has not given up US citizenship)",
+                "* A person residing in US including US green card holder",
+                "* Certain persons who spend more than 180 days in US each year",
+                "Address in the Jurisdiction/Country - where the Applicant is Resident outside India for Tax Purposes",
+                "Address*:",
+                "City/Village*:",
+                "District*:",
+                "Sub-District:",
+                "State*:",
+                "Country Name*:",
+                "ZIP/Post Code*:",
+                "Place:",
+                "Date:",
+                "Signature/thumb inpression of the Applicant/Applicants",
+                "9"
+            ]
+        },
+        "structured_data": {
+            "1": [
+                [
+                    0,
+                    0,
+                    ""
+                ],
+                [
+                    0,
+                    1,
+                    ""
+                ],
+                [
+                    0,
+                    2,
+                    ""
+                ],
+                [
+                    0,
+                    3,
+                    ""
+                ],
+                [
+                    0,
+                    4,
+                    ""
+                ],
+                [
+                    0,
+                    5,
+                    ""
+                ],
+                [
+                    0,
+                    6,
+                    ""
+                ],
+                [
+                    0,
+                    7,
+                    ""
+                ],
+                [
+                    0,
+                    8,
+                    ""
+                ],
+                [
+                    0,
+                    10,
+                    ""
+                ],
+                [
+                    0,
+                    11,
+                    ""
+                ],
+                [
+                    0,
+                    12,
+                    ""
+                ],
+                [
+                    0,
+                    13,
+                    ""
+                ],
+                [
+                    0,
+                    14,
+                    ""
+                ],
+                [
+                    0,
+                    15,
+                    ""
+                ],
+                [
+                    0,
+                    17,
+                    ""
+                ],
+                [
+                    0,
+                    18,
+                    ""
+                ],
+                [
+                    0,
+                    19,
+                    ""
+                ],
+                [
+                    0,
+                    20,
+                    ""
+                ],
+                [
+                    0,
+                    21,
+                    ""
+                ],
+                [
+                    0,
+                    22,
+                    ""
+                ],
+                [
+                    0,
+                    23,
+                    ""
+                ],
+                [
+                    1,
+                    0,
+                    ""
+                ],
+                [
+                    1,
+                    1,
+                    ""
+                ],
+                [
+                    1,
+                    2,
+                    ""
+                ],
+                [
+                    1,
+                    3,
+                    ""
+                ],
+                [
+                    1,
+                    4,
+                    ""
+                ],
+                [
+                    1,
+                    5,
+                    ""
+                ],
+                [
+                    1,
+                    6,
+                    ""
+                ],
+                [
+                    1,
+                    7,
+                    ""
+                ],
+                [
+                    1,
+                    8,
+                    ""
+                ],
+                [
+                    1,
+                    10,
+                    ""
+                ],
+                [
+                    1,
+                    11,
+                    ""
+                ],
+                [
+                    1,
+                    12,
+                    ""
+                ],
+                [
+                    1,
+                    13,
+                    ""
+                ],
+                [
+                    1,
+                    14,
+                    ""
+                ],
+                [
+                    1,
+                    15,
+                    ""
+                ],
+                [
+                    1,
+                    17,
+                    ""
+                ],
+                [
+                    1,
+                    18,
+                    ""
+                ],
+                [
+                    1,
+                    19,
+                    ""
+                ],
+                [
+                    1,
+                    20,
+                    ""
+                ],
+                [
+                    1,
+                    21,
+                    ""
+                ],
+                [
+                    1,
+                    22,
+                    ""
+                ],
+                [
+                    1,
+                    23,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    "D"
+                ],
+                [
+                    2,
+                    1,
+                    "D"
+                ],
+                [
+                    2,
+                    2,
+                    "M"
+                ],
+                [
+                    2,
+                    3,
+                    ""
+                ],
+                [
+                    2,
+                    4,
+                    "MY"
+                ],
+                [
+                    2,
+                    5,
+                    ""
+                ],
+                [
+                    2,
+                    6,
+                    "YYY"
+                ],
+                [
+                    2,
+                    7,
+                    ""
+                ],
+                [
+                    2,
+                    8,
+                    "Expiry Date (If applicable) :* D"
+                ],
+                [
+                    2,
+                    17,
+                    "D"
+                ],
+                [
+                    2,
+                    18,
+                    "M"
+                ],
+                [
+                    2,
+                    19,
+                    "MY"
+                ],
+                [
+                    2,
+                    20,
+                    ""
+                ],
+                [
+                    2,
+                    21,
+                    "Y"
+                ],
+                [
+                    2,
+                    22,
+                    "Y"
+                ],
+                [
+                    2,
+                    23,
+                    "Y"
+                ],
+                [
+                    3,
+                    0,
+                    ""
+                ],
+                [
+                    3,
+                    1,
+                    ""
+                ],
+                [
+                    3,
+                    2,
+                    ""
+                ],
+                [
+                    3,
+                    3,
+                    ""
+                ],
+                [
+                    3,
+                    4,
+                    ""
+                ],
+                [
+                    3,
+                    5,
+                    ""
+                ],
+                [
+                    3,
+                    6,
+                    ""
+                ],
+                [
+                    3,
+                    7,
+                    ""
+                ],
+                [
+                    3,
+                    17,
+                    ""
+                ],
+                [
+                    3,
+                    18,
+                    ""
+                ],
+                [
+                    3,
+                    19,
+                    ""
+                ],
+                [
+                    3,
+                    20,
+                    ""
+                ],
+                [
+                    3,
+                    21,
+                    ""
+                ],
+                [
+                    3,
+                    22,
+                    ""
+                ],
+                [
+                    3,
+                    23,
+                    ""
+                ]
+            ],
+            "2": [
+                [
+                    0,
+                    0,
+                    "Name as would appear on the card"
+                ],
+                [
+                    1,
+                    0,
+                    ""
+                ],
+                [
+                    1,
+                    1,
+                    ""
+                ],
+                [
+                    1,
+                    2,
+                    ""
+                ],
+                [
+                    1,
+                    3,
+                    ""
+                ],
+                [
+                    1,
+                    7,
+                    ""
+                ],
+                [
+                    1,
+                    8,
+                    ""
+                ],
+                [
+                    1,
+                    9,
+                    ""
+                ],
+                [
+                    1,
+                    10,
+                    ""
+                ],
+                [
+                    1,
+                    11,
+                    ""
+                ],
+                [
+                    1,
+                    12,
+                    ""
+                ],
+                [
+                    1,
+                    13,
+                    ""
+                ],
+                [
+                    1,
+                    14,
+                    ""
+                ],
+                [
+                    1,
+                    15,
+                    ""
+                ],
+                [
+                    1,
+                    16,
+                    ""
+                ],
+                [
+                    1,
+                    17,
+                    ""
+                ],
+                [
+                    1,
+                    18,
+                    ""
+                ],
+                [
+                    1,
+                    19,
+                    ""
+                ],
+                [
+                    1,
+                    20,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    ""
+                ],
+                [
+                    2,
+                    1,
+                    ""
+                ],
+                [
+                    2,
+                    2,
+                    ""
+                ],
+                [
+                    2,
+                    3,
+                    ""
+                ],
+                [
+                    2,
+                    7,
+                    ""
+                ],
+                [
+                    2,
+                    8,
+                    ""
+                ],
+                [
+                    2,
+                    9,
+                    ""
+                ],
+                [
+                    2,
+                    10,
+                    ""
+                ],
+                [
+                    2,
+                    11,
+                    ""
+                ],
+                [
+                    2,
+                    12,
+                    ""
+                ],
+                [
+                    2,
+                    13,
+                    ""
+                ],
+                [
+                    2,
+                    18,
+                    ""
+                ],
+                [
+                    3,
+                    0,
+                    ""
+                ],
+                [
+                    3,
+                    1,
+                    ""
+                ],
+                [
+                    3,
+                    2,
+                    ""
+                ],
+                [
+                    3,
+                    3,
+                    ""
+                ],
+                [
+                    3,
+                    7,
+                    ""
+                ],
+                [
+                    3,
+                    8,
+                    ""
+                ],
+                [
+                    3,
+                    9,
+                    ""
+                ],
+                [
+                    3,
+                    10,
+                    ""
+                ],
+                [
+                    3,
+                    11,
+                    ""
+                ],
+                [
+                    3,
+                    12,
+                    ""
+                ],
+                [
+                    3,
+                    13,
+                    ""
+                ],
+                [
+                    3,
+                    14,
+                    ""
+                ],
+                [
+                    3,
+                    15,
+                    ""
+                ],
+                [
+                    3,
+                    16,
+                    ""
+                ],
+                [
+                    3,
+                    17,
+                    ""
+                ],
+                [
+                    3,
+                    18,
+                    ""
+                ],
+                [
+                    3,
+                    19,
+                    ""
+                ],
+                [
+                    3,
+                    20,
+                    ""
+                ],
+                [
+                    4,
+                    0,
+                    ""
+                ],
+                [
+                    4,
+                    1,
+                    ""
+                ],
+                [
+                    4,
+                    2,
+                    ""
+                ],
+                [
+                    4,
+                    3,
+                    ""
+                ],
+                [
+                    4,
+                    7,
+                    ""
+                ],
+                [
+                    4,
+                    8,
+                    ""
+                ],
+                [
+                    4,
+                    9,
+                    ""
+                ],
+                [
+                    4,
+                    10,
+                    ""
+                ],
+                [
+                    4,
+                    11,
+                    ""
+                ],
+                [
+                    4,
+                    12,
+                    ""
+                ],
+                [
+                    4,
+                    13,
+                    ""
+                ],
+                [
+                    4,
+                    14,
+                    ""
+                ],
+                [
+                    4,
+                    15,
+                    ""
+                ],
+                [
+                    4,
+                    16,
+                    ""
+                ],
+                [
+                    4,
+                    17,
+                    ""
+                ],
+                [
+                    4,
+                    18,
+                    ""
+                ],
+                [
+                    4,
+                    19,
+                    ""
+                ],
+                [
+                    4,
+                    20,
+                    ""
+                ]
+            ],
+            "3": [
+                [
+                    0,
+                    0,
+                    "Card Type"
+                ],
+                [
+                    1,
+                    0,
+                    "Ist Applicant"
+                ],
+                [
+                    1,
+                    3,
+                    ""
+                ],
+                [
+                    1,
+                    4,
+                    "2nd Applicant"
+                ],
+                [
+                    2,
+                    0,
+                    "a) Rupay"
+                ],
+                [
+                    2,
+                    1,
+                    ""
+                ],
+                [
+                    2,
+                    2,
+                    ":unselected:"
+                ],
+                [
+                    2,
+                    3,
+                    ""
+                ],
+                [
+                    2,
+                    4,
+                    "a) Rupay"
+                ],
+                [
+                    2,
+                    5,
+                    ":unselected:"
+                ],
+                [
+                    2,
+                    6,
+                    ""
+                ],
+                [
+                    3,
+                    0,
+                    "b) Visa"
+                ],
+                [
+                    3,
+                    1,
+                    ""
+                ],
+                [
+                    3,
+                    2,
+                    ":unselected:"
+                ],
+                [
+                    3,
+                    3,
+                    ""
+                ],
+                [
+                    3,
+                    4,
+                    "b) Visa"
+                ],
+                [
+                    3,
+                    5,
+                    ":unselected:"
+                ],
+                [
+                    3,
+                    6,
+                    ""
+                ],
+                [
+                    4,
+                    0,
+                    "c) Master"
+                ],
+                [
+                    4,
+                    1,
+                    ""
+                ],
+                [
+                    4,
+                    2,
+                    ":unselected:"
+                ],
+                [
+                    4,
+                    3,
+                    ""
+                ],
+                [
+                    4,
+                    4,
+                    "c) Master"
+                ],
+                [
+                    4,
+                    5,
+                    ":unselected:"
+                ],
+                [
+                    4,
+                    6,
+                    ""
+                ]
+            ],
+            "4": [
+                [
+                    0,
+                    0,
+                    "1"
+                ],
+                [
+                    0,
+                    1,
+                    "First Name"
+                ],
+                [
+                    0,
+                    2,
+                    ""
+                ],
+                [
+                    0,
+                    5,
+                    "Middle Name"
+                ],
+                [
+                    0,
+                    6,
+                    "Surname"
+                ],
+                [
+                    1,
+                    0,
+                    "2"
+                ],
+                [
+                    1,
+                    1,
+                    "Date of Birth / Incorporation of declarant"
+                ],
+                [
+                    1,
+                    5,
+                    ""
+                ],
+                [
+                    1,
+                    6,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    "3"
+                ],
+                [
+                    2,
+                    1,
+                    "Father\u2019s Name (in case of individual)"
+                ],
+                [
+                    2,
+                    5,
+                    ""
+                ],
+                [
+                    2,
+                    6,
+                    ""
+                ],
+                [
+                    3,
+                    0,
+                    "4"
+                ],
+                [
+                    3,
+                    1,
+                    "Flat No./Floor No."
+                ],
+                [
+                    3,
+                    5,
+                    ""
+                ],
+                [
+                    3,
+                    6,
+                    ""
+                ],
+                [
+                    4,
+                    0,
+                    "5"
+                ],
+                [
+                    4,
+                    1,
+                    "Name of premises / Block Name & No."
+                ],
+                [
+                    4,
+                    5,
+                    ""
+                ],
+                [
+                    4,
+                    6,
+                    ""
+                ],
+                [
+                    5,
+                    0,
+                    "6"
+                ],
+                [
+                    5,
+                    1,
+                    "Road / Street / Lane"
+                ],
+                [
+                    5,
+                    5,
+                    ""
+                ],
+                [
+                    5,
+                    6,
+                    ""
+                ],
+                [
+                    6,
+                    0,
+                    "7"
+                ],
+                [
+                    6,
+                    1,
+                    "Area / Locality"
+                ],
+                [
+                    6,
+                    5,
+                    ""
+                ],
+                [
+                    6,
+                    6,
+                    ""
+                ],
+                [
+                    7,
+                    0,
+                    "8."
+                ],
+                [
+                    7,
+                    1,
+                    "Town/District/State"
+                ],
+                [
+                    7,
+                    5,
+                    ""
+                ],
+                [
+                    7,
+                    6,
+                    ""
+                ],
+                [
+                    8,
+                    0,
+                    "9"
+                ],
+                [
+                    8,
+                    1,
+                    "Pin code"
+                ],
+                [
+                    8,
+                    5,
+                    ""
+                ],
+                [
+                    8,
+                    6,
+                    ""
+                ],
+                [
+                    9,
+                    0,
+                    "10"
+                ],
+                [
+                    9,
+                    1,
+                    "Telephone Number (with STD code)"
+                ],
+                [
+                    9,
+                    5,
+                    ""
+                ],
+                [
+                    9,
+                    6,
+                    ""
+                ],
+                [
+                    10,
+                    0,
+                    "11"
+                ],
+                [
+                    10,
+                    1,
+                    "Mobile Number"
+                ],
+                [
+                    10,
+                    5,
+                    ""
+                ],
+                [
+                    10,
+                    6,
+                    ""
+                ],
+                [
+                    11,
+                    0,
+                    "12"
+                ],
+                [
+                    11,
+                    1,
+                    "Amount of Transaction (Rs.)"
+                ],
+                [
+                    11,
+                    5,
+                    ""
+                ],
+                [
+                    11,
+                    6,
+                    ""
+                ],
+                [
+                    12,
+                    0,
+                    "13"
+                ],
+                [
+                    12,
+                    1,
+                    "Date of Transaction"
+                ],
+                [
+                    12,
+                    5,
+                    ""
+                ],
+                [
+                    12,
+                    6,
+                    ""
+                ],
+                [
+                    13,
+                    0,
+                    "14"
+                ],
+                [
+                    13,
+                    1,
+                    "In case of transaction in joint names, number of persons involved in the transaction"
+                ],
+                [
+                    13,
+                    5,
+                    ""
+                ],
+                [
+                    13,
+                    6,
+                    ""
+                ]
+            ],
+            "5": [
+                [
+                    0,
+                    0,
+                    "15"
+                ],
+                [
+                    0,
+                    1,
+                    "Mode of transaction"
+                ],
+                [
+                    0,
+                    2,
+                    "Cash"
+                ],
+                [
+                    0,
+                    3,
+                    "Cheque"
+                ],
+                [
+                    0,
+                    4,
+                    "Card"
+                ],
+                [
+                    0,
+                    5,
+                    "Draft/Banker\u2019s Cheque"
+                ],
+                [
+                    0,
+                    7,
+                    "Online transfer"
+                ],
+                [
+                    0,
+                    8,
+                    "Other"
+                ],
+                [
+                    1,
+                    0,
+                    "16"
+                ],
+                [
+                    1,
+                    1,
+                    "Aadhaar Number issued by UIDAI (if available) :"
+                ],
+                [
+                    1,
+                    5,
+                    ""
+                ],
+                [
+                    1,
+                    7,
+                    ""
+                ],
+                [
+                    1,
+                    8,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    "17"
+                ],
+                [
+                    2,
+                    1,
+                    "If applied for PAN and it is not yet generated, enter date of application and acknowledgement number: __________________ Date : ____________________________________________________________________________________ _______________"
+                ],
+                [
+                    3,
+                    0,
+                    "18"
+                ],
+                [
+                    3,
+                    1,
+                    "If PAN not applied, fill estimated total income (including income of spouse, minor child, etc ., as per section 64 of Income-tax Act, 1961) for the financial year in which the above transaction is held (a) Agricultural income (Rs.) (b) Other than Agr. Income (Rs.) _________________________________________________"
+                ],
+                [
+                    4,
+                    0,
+                    "19"
+                ],
+                [
+                    4,
+                    1,
+                    "Details of document being produced in support of identify in Column 1 (Refer Instruction overleaf)"
+                ],
+                [
+                    4,
+                    4,
+                    "Document code"
+                ],
+                [
+                    4,
+                    6,
+                    "Document identification number"
+                ],
+                [
+                    4,
+                    7,
+                    "Name and address of the authority issuing the document"
+                ],
+                [
+                    5,
+                    0,
+                    "20"
+                ],
+                [
+                    5,
+                    1,
+                    "Details of document being produced in support of identity in Column 4 to 13 (Refer Instruction overleaf)"
+                ],
+                [
+                    5,
+                    4,
+                    "Document code"
+                ],
+                [
+                    5,
+                    6,
+                    "Document identification number"
+                ],
+                [
+                    5,
+                    7,
+                    "Name and address of the authority issuing the document"
+                ]
+            ],
+            "6": [
+                [
+                    0,
+                    0,
+                    "SI."
+                ],
+                [
+                    0,
+                    1,
+                    "Nature of Documents"
+                ],
+                [
+                    0,
+                    3,
+                    "Document Code"
+                ],
+                [
+                    0,
+                    4,
+                    "Proof of Identity"
+                ],
+                [
+                    0,
+                    5,
+                    "Proof of Address"
+                ],
+                [
+                    1,
+                    0,
+                    "A"
+                ],
+                [
+                    1,
+                    1,
+                    "For Individuals and HUF"
+                ],
+                [
+                    1,
+                    3,
+                    ""
+                ],
+                [
+                    1,
+                    4,
+                    ""
+                ],
+                [
+                    1,
+                    5,
+                    ""
+                ],
+                [
+                    2,
+                    1,
+                    "1"
+                ],
+                [
+                    2,
+                    2,
+                    "AADHAAR card"
+                ],
+                [
+                    2,
+                    3,
+                    "01"
+                ],
+                [
+                    2,
+                    4,
+                    "Yes"
+                ],
+                [
+                    2,
+                    5,
+                    "Yes"
+                ],
+                [
+                    3,
+                    1,
+                    "2"
+                ],
+                [
+                    3,
+                    2,
+                    "Bank/Post office passbook bearing photograph of the person"
+                ],
+                [
+                    3,
+                    3,
+                    "02"
+                ],
+                [
+                    3,
+                    4,
+                    "Yes"
+                ],
+                [
+                    3,
+                    5,
+                    "Yes"
+                ],
+                [
+                    4,
+                    1,
+                    "3"
+                ],
+                [
+                    4,
+                    2,
+                    "Elector's photo identity card"
+                ],
+                [
+                    4,
+                    3,
+                    "03"
+                ],
+                [
+                    4,
+                    4,
+                    "Yes"
+                ],
+                [
+                    4,
+                    5,
+                    "Yes"
+                ],
+                [
+                    5,
+                    1,
+                    "4"
+                ],
+                [
+                    5,
+                    2,
+                    "Ration/Public Distribution System card bearing photograph of the person"
+                ],
+                [
+                    5,
+                    3,
+                    "04"
+                ],
+                [
+                    5,
+                    4,
+                    "Yes"
+                ],
+                [
+                    5,
+                    5,
+                    "Yes"
+                ],
+                [
+                    6,
+                    1,
+                    "5"
+                ],
+                [
+                    6,
+                    2,
+                    "Driving License"
+                ],
+                [
+                    6,
+                    3,
+                    "05"
+                ],
+                [
+                    6,
+                    4,
+                    "Yes"
+                ],
+                [
+                    6,
+                    5,
+                    "Yes"
+                ],
+                [
+                    7,
+                    1,
+                    "6"
+                ],
+                [
+                    7,
+                    2,
+                    "Passport"
+                ],
+                [
+                    7,
+                    3,
+                    "06"
+                ],
+                [
+                    7,
+                    4,
+                    "Yes"
+                ],
+                [
+                    7,
+                    5,
+                    "Yes"
+                ],
+                [
+                    8,
+                    1,
+                    "7"
+                ],
+                [
+                    8,
+                    2,
+                    "Pensioner Photo card"
+                ],
+                [
+                    8,
+                    3,
+                    "07"
+                ],
+                [
+                    8,
+                    4,
+                    "Yes"
+                ],
+                [
+                    8,
+                    5,
+                    "Yes"
+                ],
+                [
+                    9,
+                    1,
+                    "8"
+                ],
+                [
+                    9,
+                    2,
+                    "National Rural Employment Guarantee Scheme (NREGS) Job Card"
+                ],
+                [
+                    9,
+                    3,
+                    "08"
+                ],
+                [
+                    9,
+                    4,
+                    "Yes"
+                ],
+                [
+                    9,
+                    5,
+                    "Yes"
+                ],
+                [
+                    10,
+                    1,
+                    "9"
+                ],
+                [
+                    10,
+                    2,
+                    "Caste or Domicile certificate bearing photo of the person"
+                ],
+                [
+                    10,
+                    3,
+                    "09"
+                ],
+                [
+                    10,
+                    4,
+                    "Yes"
+                ],
+                [
+                    10,
+                    5,
+                    "Yes"
+                ],
+                [
+                    11,
+                    0,
+                    ""
+                ],
+                [
+                    11,
+                    1,
+                    "10"
+                ],
+                [
+                    11,
+                    2,
+                    "Certificate of identity/address signed by a Member of Parliament or Member of Legislative Assembly or Municipal Councillor or a Gazetted Officer as per annexure A prescribed in Form 49A"
+                ],
+                [
+                    11,
+                    3,
+                    "10"
+                ],
+                [
+                    11,
+                    4,
+                    "Yes"
+                ],
+                [
+                    11,
+                    5,
+                    "Yes"
+                ],
+                [
+                    12,
+                    0,
+                    ""
+                ],
+                [
+                    12,
+                    1,
+                    "11"
+                ],
+                [
+                    12,
+                    2,
+                    "Certificate from employer as per annexure B prescribed in Form 49A"
+                ],
+                [
+                    12,
+                    3,
+                    "11"
+                ],
+                [
+                    12,
+                    4,
+                    "Yes"
+                ],
+                [
+                    12,
+                    5,
+                    "Yes"
+                ],
+                [
+                    13,
+                    1,
+                    "12"
+                ],
+                [
+                    13,
+                    2,
+                    "Kisan passbook bearing photo"
+                ],
+                [
+                    13,
+                    3,
+                    "12"
+                ],
+                [
+                    13,
+                    4,
+                    "Yes"
+                ],
+                [
+                    13,
+                    5,
+                    "No"
+                ],
+                [
+                    14,
+                    1,
+                    "13"
+                ],
+                [
+                    14,
+                    2,
+                    "Arm's license"
+                ],
+                [
+                    14,
+                    3,
+                    "13"
+                ],
+                [
+                    14,
+                    4,
+                    "Yes"
+                ],
+                [
+                    14,
+                    5,
+                    "No"
+                ],
+                [
+                    15,
+                    0,
+                    ""
+                ],
+                [
+                    15,
+                    1,
+                    "14"
+                ],
+                [
+                    15,
+                    2,
+                    "Central Government Health Scheme/ Ex -Service men Contributory Health Scheme"
+                ],
+                [
+                    15,
+                    3,
+                    "14"
+                ],
+                [
+                    15,
+                    4,
+                    "Yes"
+                ],
+                [
+                    15,
+                    5,
+                    "No"
+                ],
+                [
+                    16,
+                    0,
+                    ""
+                ],
+                [
+                    16,
+                    1,
+                    "15"
+                ],
+                [
+                    16,
+                    2,
+                    "Photo identity card issued by the Government/Public Sector Undertaking"
+                ],
+                [
+                    16,
+                    3,
+                    "15"
+                ],
+                [
+                    16,
+                    4,
+                    "Yes"
+                ],
+                [
+                    16,
+                    5,
+                    "No"
+                ],
+                [
+                    17,
+                    1,
+                    "16"
+                ],
+                [
+                    17,
+                    2,
+                    "Electricity bill (Not more than 3 months old)"
+                ],
+                [
+                    17,
+                    3,
+                    "16"
+                ],
+                [
+                    17,
+                    4,
+                    "No"
+                ],
+                [
+                    17,
+                    5,
+                    "Yes"
+                ],
+                [
+                    18,
+                    1,
+                    "17"
+                ],
+                [
+                    18,
+                    2,
+                    "Landline Telephone bill (Not more than 3 months old)"
+                ],
+                [
+                    18,
+                    3,
+                    "17"
+                ],
+                [
+                    18,
+                    4,
+                    "No"
+                ],
+                [
+                    18,
+                    5,
+                    "Yes"
+                ],
+                [
+                    19,
+                    1,
+                    "18"
+                ],
+                [
+                    19,
+                    2,
+                    "Water bill (Not more than 3 months old)"
+                ],
+                [
+                    19,
+                    3,
+                    "18"
+                ],
+                [
+                    19,
+                    4,
+                    "No"
+                ],
+                [
+                    19,
+                    5,
+                    "Yes"
+                ],
+                [
+                    20,
+                    1,
+                    "19"
+                ],
+                [
+                    20,
+                    2,
+                    "Consumer gas card/book or piped gas bill (Not more than 3 months old)"
+                ],
+                [
+                    20,
+                    3,
+                    "19"
+                ],
+                [
+                    20,
+                    4,
+                    "No"
+                ],
+                [
+                    20,
+                    5,
+                    "Yes"
+                ],
+                [
+                    21,
+                    0,
+                    ""
+                ],
+                [
+                    21,
+                    1,
+                    "20"
+                ],
+                [
+                    21,
+                    2,
+                    "Bank Account Statement (Not more than 3 months old)"
+                ],
+                [
+                    21,
+                    3,
+                    "20"
+                ],
+                [
+                    21,
+                    4,
+                    "No"
+                ],
+                [
+                    21,
+                    5,
+                    "Yes"
+                ],
+                [
+                    22,
+                    0,
+                    ""
+                ],
+                [
+                    22,
+                    1,
+                    "21"
+                ],
+                [
+                    22,
+                    2,
+                    "Credit Card Statement (Not more than 3 months old)"
+                ],
+                [
+                    22,
+                    3,
+                    "21"
+                ],
+                [
+                    22,
+                    4,
+                    "No"
+                ],
+                [
+                    22,
+                    5,
+                    "Yes"
+                ],
+                [
+                    23,
+                    1,
+                    "22"
+                ],
+                [
+                    23,
+                    2,
+                    "Depository Account Statement (Not more than 3 months old)"
+                ],
+                [
+                    23,
+                    3,
+                    "22"
+                ],
+                [
+                    23,
+                    4,
+                    "No"
+                ],
+                [
+                    23,
+                    5,
+                    "Yes"
+                ],
+                [
+                    24,
+                    1,
+                    "23"
+                ],
+                [
+                    24,
+                    2,
+                    "Property registration document"
+                ],
+                [
+                    24,
+                    3,
+                    "23"
+                ],
+                [
+                    24,
+                    4,
+                    "No"
+                ],
+                [
+                    24,
+                    5,
+                    "Yes"
+                ],
+                [
+                    25,
+                    1,
+                    "24"
+                ],
+                [
+                    25,
+                    2,
+                    "Allotment letter of accommodation from Government"
+                ],
+                [
+                    25,
+                    3,
+                    "24"
+                ],
+                [
+                    25,
+                    4,
+                    "No"
+                ],
+                [
+                    25,
+                    5,
+                    "Yes"
+                ],
+                [
+                    26,
+                    1,
+                    "25"
+                ],
+                [
+                    26,
+                    2,
+                    "Passport of spouse bearing name of the person"
+                ],
+                [
+                    26,
+                    3,
+                    "25"
+                ],
+                [
+                    26,
+                    4,
+                    "No"
+                ],
+                [
+                    26,
+                    5,
+                    "Yes"
+                ],
+                [
+                    27,
+                    1,
+                    "26"
+                ],
+                [
+                    27,
+                    2,
+                    "Property tax payment receipt (Not more than one year old)"
+                ],
+                [
+                    27,
+                    3,
+                    "26"
+                ],
+                [
+                    27,
+                    4,
+                    "No"
+                ],
+                [
+                    27,
+                    5,
+                    "Yes"
+                ],
+                [
+                    28,
+                    0,
+                    "B"
+                ],
+                [
+                    28,
+                    1,
+                    "For Association of persons (Trusts)"
+                ],
+                [
+                    28,
+                    3,
+                    ""
+                ],
+                [
+                    28,
+                    4,
+                    ""
+                ],
+                [
+                    28,
+                    5,
+                    ""
+                ],
+                [
+                    29,
+                    0,
+                    ""
+                ],
+                [
+                    29,
+                    1,
+                    "Copy of trust deed or copy of certificate of registration issued by Charity Commissioner"
+                ],
+                [
+                    29,
+                    3,
+                    "27"
+                ],
+                [
+                    29,
+                    4,
+                    "Yes"
+                ],
+                [
+                    29,
+                    5,
+                    "Yes"
+                ],
+                [
+                    30,
+                    0,
+                    "C"
+                ],
+                [
+                    30,
+                    1,
+                    "For Association of persons (other than Trusts) or Body of Individuals or Local authority or Artificial Juridical Person)"
+                ],
+                [
+                    31,
+                    0,
+                    ""
+                ],
+                [
+                    31,
+                    1,
+                    "Copy of Agreement or copy of certificate of registration issued by Charity Commissioner or Registrar of Cooperative Society or any other competent authority or any other document originating from any Central or State Government Department establishing identity and address of such person."
+                ],
+                [
+                    31,
+                    3,
+                    "28"
+                ],
+                [
+                    31,
+                    4,
+                    "Yes"
+                ],
+                [
+                    31,
+                    5,
+                    "Yes"
+                ],
+                [
+                    32,
+                    0,
+                    "(2) In case of a transaction in the name of a Minor, any of the above-mentioned documents as proof of Identity and Address of any of parents/guardians of such minor shall be deemed to be the proof of identity and address for the minor declarant, and the declaration should be signed by the parent/guardian."
+                ],
+                [
+                    33,
+                    0,
+                    "(3) For HUF any document in the name of Karta of HUF is required."
+                ],
+                [
+                    34,
+                    0,
+                    "(4) In case the transaction is in the name of more than one person, the total number of persons should be mentioned in SI. No. 18 and the total amount of transaction is to be filled in SI. No. 16."
+                ]
+            ],
+            "7": [
+                [
+                    0,
+                    0,
+                    "Country of Tax Residence#"
+                ],
+                [
+                    0,
+                    1,
+                    "Tax Identification number or equivalent if issued by jurisdicti on"
+                ],
+                [
+                    0,
+                    2,
+                    "Identification type (TIN or Other, please specify)"
+                ],
+                [
+                    1,
+                    0,
+                    ""
+                ],
+                [
+                    1,
+                    1,
+                    ""
+                ],
+                [
+                    1,
+                    2,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    ""
+                ],
+                [
+                    2,
+                    1,
+                    ""
+                ],
+                [
+                    2,
+                    2,
+                    ""
+                ],
+                [
+                    3,
+                    0,
+                    ""
+                ],
+                [
+                    3,
+                    1,
+                    ""
+                ],
+                [
+                    3,
+                    2,
+                    ""
+                ]
+            ]
+        }
+    }
+}

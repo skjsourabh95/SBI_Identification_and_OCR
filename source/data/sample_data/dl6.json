@@ -1,0 +1,152 @@
+{
+    "local_path": "../data/sample_data/dl6.jpeg",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/dl6.jpeg",
+    "document_classification": "DRIVING_LICENSE_INDIAN",
+    "classification_score": 0.879,
+    "faces_detected": {
+        "e98e42a9-35ae-41ac-86ea-b5dbec0f4879": [
+            974,
+            312,
+            1065,
+            425
+        ],
+        "8a9dee3b-52d7-40d3-a224-b886279bd9b3": [
+            259,
+            561,
+            329,
+            646
+        ]
+    },
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:dl": 0.879
+        },
+        "identified_labels": {
+            "rta": {
+                "value": "RTA-HYDERABAD-CZ",
+                "confidence": 0.995
+            },
+            "address": {
+                "value": "KOMMAGONI NILAYAM PARVATH NAGAR KUKATPAL BALANAGAR RANGA REDDY 500072",
+                "confidence": 0.851
+            },
+            "issued_on": {
+                "value": "10/06/2016",
+                "confidence": 0.995
+            },
+            "name": {
+                "value": "KOPPULA RAMESH",
+                "confidence": 0.995
+            },
+            "dl_no": {
+                "value": "TS30720160004887",
+                "confidence": 0.995
+            },
+            "customer_signature": {
+                "value": "signed",
+                "confidence": 0.986
+            },
+            "father_name": {
+                "value": "KOPPULA PARVATHALU",
+                "confidence": 0.988
+            },
+            "state": {
+                "value": "TELANGANA STATE",
+                "confidence": 0.995
+            },
+            "authority_signature": {
+                "value": "signed",
+                "confidence": 0.995
+            },
+            "id": {
+                "value": "D NO.14-1-211/621/48/2",
+                "confidence": 0.995
+            }
+        },
+        "labels_coordinates": {
+            "rta": [
+                790,
+                744,
+                1075,
+                772
+            ],
+            "address": [
+                403,
+                432,
+                849,
+                585
+            ],
+            "issued_on": [
+                564,
+                747,
+                708,
+                775
+            ],
+            "name": [
+                407,
+                307,
+                705,
+                347
+            ],
+            "dl_no": [
+                412,
+                259,
+                835,
+                312
+            ],
+            "customer_signature": [
+                411,
+                644,
+                585,
+                701
+            ],
+            "father_name": [
+                407,
+                347,
+                774,
+                387
+            ],
+            "state": [
+                525,
+                204,
+                868,
+                250
+            ],
+            "authority_signature": [
+                740,
+                600,
+                1139,
+                728
+            ],
+            "id": [
+                406,
+                389,
+                750,
+                424
+            ]
+        },
+        "unstructured_data": {
+            "1": [
+                "INDIAN UNION DRIVING LICENCE",
+                "TELANGANA STATE",
+                "\u0938\u0924\u094d\u092f\u092e\u0947\u0935 \u091c\u092f\u0924\u0947",
+                "TS30720160004887",
+                "KOPPULA RAMESH",
+                "KOPPULA PARVATHALU",
+                "ANA \u00b7 \u00b7",
+                "D NO.14-1-211/621/48/2",
+                "KOMMAGONI NILAYAM",
+                "PARVATH NAGAR KUKATPAL",
+                "BALANAGAR",
+                "RANGA REDDY - 500072",
+                "K. Rameny",
+                "Signature",
+                "Issued On: 10/06/2016",
+                "Licencing Authority",
+                "RTA-HYDERABAD-CZ"
+            ]
+        },
+        "structured_data": {}
+    }
+}

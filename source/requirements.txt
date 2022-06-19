@@ -1,0 +1,16 @@
+# need GhostScript and poppler installed and in path
+numpy         
+opencv-python 
+Pillow   
+imutils
+tqdm
+ImageHash
+retina-face
+pdf2image
+signature-detect
+azure-ai-formrecognizer
+azure-cognitiveservices-vision-computervision
+azure-cognitiveservices-vision-face
+azure-storage-blob 
+
+

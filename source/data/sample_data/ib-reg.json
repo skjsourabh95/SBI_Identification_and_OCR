@@ -1,0 +1,458 @@
+{
+    "local_path": "../data/sample_data/ib-reg.pdf",
+    "blob_url": "https://techgig.blob.core.windows.net/ocr-docs/ib-reg.pdf",
+    "document_classification": "INTERNET_BANKING_REGISTRATION",
+    "classification_score": 0.995,
+    "faces_detected": {},
+    "signature_present": true,
+    "data_extracted": {
+        "document_detected": {
+            "SBI:IB": 0.995
+        },
+        "identified_labels": {
+            "mobileno": {
+                "value": "+91 1 2 3 456789 0",
+                "confidence": 0.99
+            },
+            "email": {
+                "value": null,
+                "confidence": 0.919
+            },
+            "name": {
+                "value": "SOURABHI KUMAR JAN G HEL",
+                "confidence": 0.99
+            },
+            "signature": {
+                "value": "Ganghel Customer\u2019s Signature",
+                "confidence": 0.99
+            },
+            "dob": {
+                "value": null,
+                "confidence": 0.919
+            }
+        },
+        "labels_coordinates": {
+            "mobileno": [
+                2,
+                3,
+                5,
+                4
+            ],
+            "email": [],
+            "name": [
+                1,
+                3,
+                5,
+                3
+            ],
+            "signature": [
+                1,
+                9,
+                2,
+                10
+            ],
+            "dob": []
+        },
+        "unstructured_data": {
+            "1": [
+                "ONLINE SBI",
+                "REGISTRATION FORM",
+                "To",
+                "The Branch Manager",
+                "State Bank of India",
+                "\u2026\u2026\u2026\u2026\u2026\u2026\u2026..",
+                "I wish to register as a user of \u2018OnlineSBI\u2019, SBI\u2019s Internet Banking Service.",
+                "Name of Customer",
+                "(25 Characters)",
+                "SOURABHI",
+                "KUMAR",
+                "JAN",
+                "G",
+                "HEL",
+                "Mobile Number:",
+                "+91",
+                "1 2 3 456789 0",
+                "E-Mail:",
+                "Date of Birth:",
+                "DD",
+                "MM",
+                "YY",
+                "My Account Numbers",
+                "Single/ Joint*",
+                "Accounts",
+                "(Branch Use)",
+                "Transaction",
+                "Rights (Y/N)",
+                "(Branch Use)",
+                "** Limited",
+                "Transaction",
+                "Rights (Y/N)",
+                "* Rights on the OnLineSBI Service will be same as that in your account at the branch.",
+                "**",
+                "Transaction rights to transfer funds within own CIF, e-TDR/e-STDR and new a/c",
+                "opening request through branch intervention",
+                "I have read the provisions contained in the \u201cTerms of Service (Terms & Conditions)",
+                "document\u201d of \u201cOnlineSBI\u201d and accept them. I agree that the transactions executed",
+                "over OnlineSBI under my Username and Password will be binding on me.",
+                "Ganghel",
+                "Customer\u2019s Signature",
+                "Date:",
+                "Form made fillable by Karvitt.com"
+            ]
+        },
+        "structured_data": {
+            "1": [
+                [
+                    0,
+                    0,
+                    ""
+                ],
+                [
+                    0,
+                    1,
+                    ""
+                ],
+                [
+                    0,
+                    3,
+                    "My Account Numbers"
+                ],
+                [
+                    0,
+                    13,
+                    "Single/ Joint* Accounts"
+                ],
+                [
+                    0,
+                    14,
+                    "(Branch Use) Transaction Rights (Y/N)"
+                ],
+                [
+                    0,
+                    15,
+                    "(Branch Use) ** Limited Transaction Rights (Y/N)"
+                ],
+                [
+                    1,
+                    0,
+                    ""
+                ],
+                [
+                    1,
+                    1,
+                    ""
+                ],
+                [
+                    1,
+                    2,
+                    ""
+                ],
+                [
+                    1,
+                    3,
+                    ""
+                ],
+                [
+                    1,
+                    4,
+                    ""
+                ],
+                [
+                    1,
+                    12,
+                    ""
+                ],
+                [
+                    1,
+                    13,
+                    ""
+                ],
+                [
+                    1,
+                    14,
+                    ""
+                ],
+                [
+                    1,
+                    15,
+                    ""
+                ],
+                [
+                    2,
+                    0,
+                    ""
+                ],
+                [
+                    2,
+                    1,
+                    ""
+                ],
+                [
+                    2,
+                    2,
+                    ""
+                ],
+                [
+                    2,
+                    3,
+                    ""
+                ],
+                [
+                    2,
+                    4,
+                    ""
+                ],
+                [
+                    2,
+                    12,
+                    ""
+                ],
+                [
+                    2,
+                    13,
+                    ""
+                ],
+                [
+                    2,
+                    14,
+                    ""
+                ],
+                [
+                    2,
+                    15,
+                    ""
+                ],
+                [
+                    3,
+                    0,
+                    ""
+                ],
+                [
+                    3,
+                    1,
+                    ""
+                ],
+                [
+                    3,
+                    2,
+                    ""
+                ],
+                [
+                    3,
+                    3,
+                    ""
+                ],
+                [
+                    3,
+                    4,
+                    ""
+                ],
+                [
+                    3,
+                    12,
+                    ""
+                ],
+                [
+                    3,
+                    13,
+                    ""
+                ],
+                [
+                    3,
+                    14,
+                    ""
+                ],
+                [
+                    3,
+                    15,
+                    ""
+                ],
+                [
+                    4,
+                    0,
+                    ""
+                ],
+                [
+                    4,
+                    1,
+                    ""
+                ],
+                [
+                    4,
+                    2,
+                    ""
+                ],
+                [
+                    4,
+                    3,
+                    ""
+                ],
+                [
+                    4,
+                    4,
+                    ""
+                ],
+                [
+                    4,
+                    7,
+                    ""
+                ],
+                [
+                    4,
+                    12,
+                    ""
+                ],
+                [
+                    4,
+                    13,
+                    ""
+                ],
+                [
+                    4,
+                    14,
+                    ""
+                ],
+                [
+                    4,
+                    15,
+                    ""
+                ],
+                [
+                    5,
+                    0,
+                    ""
+                ],
+                [
+                    5,
+                    1,
+                    ""
+                ],
+                [
+                    5,
+                    2,
+                    ""
+                ],
+                [
+                    5,
+                    3,
+                    ""
+                ],
+                [
+                    5,
+                    4,
+                    ""
+                ],
+                [
+                    5,
+                    7,
+                    ""
+                ],
+                [
+                    5,
+                    12,
+                    ""
+                ],
+                [
+                    5,
+                    13,
+                    ""
+                ],
+                [
+                    5,
+                    14,
+                    ""
+                ],
+                [
+                    5,
+                    15,
+                    ""
+                ],
+                [
+                    6,
+                    0,
+                    ""
+                ],
+                [
+                    6,
+                    1,
+                    ""
+                ],
+                [
+                    6,
+                    2,
+                    ""
+                ],
+                [
+                    6,
+                    3,
+                    ""
+                ],
+                [
+                    6,
+                    12,
+                    ""
+                ],
+                [
+                    6,
+                    13,
+                    ""
+                ],
+                [
+                    6,
+                    14,
+                    ""
+                ],
+                [
+                    6,
+                    15,
+                    ""
+                ],
+                [
+                    7,
+                    0,
+                    ""
+                ],
+                [
+                    7,
+                    1,
+                    ""
+                ],
+                [
+                    7,
+                    2,
+                    ""
+                ],
+                [
+                    7,
+                    3,
+                    ""
+                ],
+                [
+                    7,
+                    4,
+                    ""
+                ],
+                [
+                    7,
+                    12,
+                    ""
+                ],
+                [
+                    7,
+                    13,
+                    ""
+                ],
+                [
+                    7,
+                    14,
+                    ""
+                ],
+                [
+                    7,
+                    15,
+                    ""
+                ]
+            ]
+        }
+    }
+}
